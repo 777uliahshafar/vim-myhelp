@@ -23,6 +23,8 @@ CONTENTS
    - ) : Next sentence
    - CTRL-D : Down half a page
    - CTRL-U : Up half a page
+   - e : mov end of word
+   - b : mov back word
    - ~ Uppercase a letter (works on ranges)
 
    - C : Delete from cursor to end of the line and start insert.
