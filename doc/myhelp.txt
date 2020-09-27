@@ -5,11 +5,12 @@ This text for user who forget always..
 ===============================================================================
 CONTENTS
 
-	1. Normal Mode.......................................|myc
-	2. Visual Mode.......................................|myhelp-visual|
-	3. Insert Mode.......................................|myhelp-insert|
-	4. Notes.............................................|myhelp-notes|
-	5. Rebuilding this file
+	1. Normal Mode.......................................|myc|
+	2. UltiSnips.........................................|mys|
+	3. Visual Mode.......................................|myhelp-visual|
+	4. Insert Mode.......................................|myhelp-insert|
+	5. Notes.............................................|myhelp-notes|
+	6. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *myc*
@@ -31,8 +32,17 @@ CONTENTS
    - /<C-R><C-W>: Pull word into command line (or search)
    - :reg : list registers (and show what’s in them)
 
+
+==============================================================================
+2. Ultisnips						*mys*
+
+   - it[tab] : text formating italic
+   - bf[tab] : text formatting bold
+   - ul[tab] : text formatting underline
+
 ===============================================================================
-2. Visual Mode                                         *myhelp-visual*
+
+3. Visual Mode                                         *myhelp-visual*
 
    - SHIFT-[LEFT/RIGHT] : Shift one word left or right
    - J : Join the highlighted lines, removing unnecessary whitespace.
