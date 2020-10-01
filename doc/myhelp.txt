@@ -39,6 +39,8 @@ CONTENTS
    - it[tab] : text formating italic
    - bf[tab] : text formatting bold
    - ul[tab] : text formatting underline
+   - ci[tab] : cite a reference
+   - cip[tab]: cite a reference, all in parentheses
 
 ===============================================================================
 
