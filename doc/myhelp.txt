@@ -42,6 +42,9 @@ CONTENTS
    - ci[tab] : cite a reference
    - cip[tab]: cite a reference, all in parentheses
 
+   - sc[tab] : making a section w/ label
+   - sub[tab]: making a subsection w/ label
+   - ssub[tab] : making a subsubsection w/label
 ===============================================================================
 
 3. Visual Mode                                         *myhelp-visual*
