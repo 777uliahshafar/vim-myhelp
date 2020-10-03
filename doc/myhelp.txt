@@ -9,7 +9,7 @@ CONTENTS
 	2. UltiSnips.........................................|mys|
 	3. Visual Mode.......................................|myhelp-visual|
 	4. Insert Mode.......................................|myhelp-insert|
-	5. Notes.............................................|myhelp-notes|
+	5. Fern Tree Viewer..................................|myf|
 	6. Rebuilding this file
 
 ===============================================================================
@@ -58,7 +58,7 @@ CONTENTS
      contents)
 
 ===============================================================================
-3. Insert Mode                                         *myhelp-insert*
+4. Insert Mode                                         *myhelp-insert*
 
    - <C-N>: Complete word
    - <C-N><C-P>: Complete word (?)
@@ -69,7 +69,20 @@ CONTENTS
      commands)
 
 ===============================================================================
-4. Rebuilding this file.
+5. Fern Tree Viewer 					*myf*
+
+   - b = split
+   - v = vsplit
+   - M = rename
+   - m = move
+   - c = new-copy
+   - n = new-path
+   - h = hidden-toggle
+   - d = remove
+   - r = reload
+
+===============================================================================
+6. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
