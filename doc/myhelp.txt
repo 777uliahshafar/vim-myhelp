@@ -1,17 +1,18 @@
 *myhelp.txt*	For Vim version 7.4	Last change: 2014 October 8
 *myhelp*
-
+*myh*
 This text for user who forget always..
 ===============================================================================
 CONTENTS
 
 	1. Normal Mode.......................................|myc|
 	2. UltiSnips.........................................|mys|
-	3. Visual Mode.......................................|myhelp-visual|
-	4. Insert Mode.......................................|myhelp-insert|
+	3. Visual Mode.......................................|mycv|
+	4. Insert Mode.......................................|myci|
 	5. Coc Tree Viewer...................................|mye|
 	6. Fzf fuzzy finder..................................|myf|
-	7. Rebuilding this file
+	7. Vimagit git interface.............................|mym|
+	8. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *myc*
@@ -48,7 +49,7 @@ CONTENTS
    - ssub[tab] : making a subsubsection w/label
 ===============================================================================
 
-3. Visual Mode                                         *myhelp-visual*
+3. Visual Mode                                         *mycv*
 
    - SHIFT-[LEFT/RIGHT] : Shift one word left or right
    - J : Join the highlighted lines, removing unnecessary whitespace.
@@ -59,7 +60,7 @@ CONTENTS
      contents)
 
 ===============================================================================
-4. Insert Mode                                         *myhelp-insert*
+4. Insert Mode                                         *myci*
 
    - <C-N>: Complete word
    - <C-N><C-P>: Complete word (?)
@@ -95,9 +96,16 @@ CONTENTS
    - <C-t>   : tab split
    - <C-x>   : split
    - <C-v>   : vsplit
+===============================================================================
+
+7. Vimagit Git interface 					*mym*
+
+   - <leader> m : Open MagitOnly Buffers
+   - S      	: Stage or Unstage depend on cursor
+   - CC 	: Enter Commit Mode, CC again for commit in normal mode
 
 ===============================================================================
-7. Rebuilding this file.
+8. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
