@@ -9,8 +9,9 @@ CONTENTS
 	2. UltiSnips.........................................|mys|
 	3. Visual Mode.......................................|myhelp-visual|
 	4. Insert Mode.......................................|myhelp-insert|
-	5. Fern Tree Viewer..................................|myf|
-	6. Rebuilding this file
+	5. Coc Tree Viewer...................................|mye|
+	6. Fzf fuzzy finder..................................|myf|
+	7. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *myc*
@@ -69,20 +70,34 @@ CONTENTS
      commands)
 
 ===============================================================================
-5. Fern Tree Viewer 					*myf*
+5. Coc Explorer Tree Viewer 					*mye*
 
-   - b = split
-   - v = vsplit
-   - M = rename
-   - m = move
-   - c = new-copy
-   - n = new-path
-   - h = hidden-toggle
-   - d = remove
-   - r = reload
+   - H = split
+   - V = vsplit
+   - t = tab
+   - r = rename
+   - X = move/cut
+   - Y = new-copy
+   - P = paste
+   - T = new-path
+   - . = hidden-toggle
+   - d = delete
+   - R = reload
+   - q = quit
+   - <bs> = gotoParent
 
 ===============================================================================
-6. Rebuilding this file.
+6. Fzf Fuzzy Finder 						*myf*
+
+   - <C-f>   : Open :Files
+   - <leader>b : Open :Buffers
+   - <leader>g : Open Rg search
+   - <C-t>   : tab split
+   - <C-x>   : split
+   - <C-v>   : vsplit
+
+===============================================================================
+7. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
