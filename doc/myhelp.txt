@@ -35,6 +35,7 @@ CONTENTS
    - :reg : list registers (and show what’s in them)
 
 
+   - s/S : Vim-Sneak (motion between found text)
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense		*mys*
    - <C-l>   : expand snippet directly
