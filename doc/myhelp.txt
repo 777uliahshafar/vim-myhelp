@@ -101,6 +101,8 @@ CONTENTS
    - <C-t>   : tab split
    - <C-x>   : split
    - <C-v>   : vsplit
+   - <C-j>   : up
+   - <C-k>   : down
 ===============================================================================
 
 7. Vimagit Git interface 					*mym*
