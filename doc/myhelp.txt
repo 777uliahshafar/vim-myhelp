@@ -36,7 +36,10 @@ CONTENTS
 
 
 ==============================================================================
-2. Ultisnips						*mys*
+2. Ultisnips- coc-snippets & Intellisense		*mys*
+   - <C-l>   : expand snippet directly
+   - [TAB]   : trigger auto-completion and snippets and jump next
+   - [S-TAB] : jump previous
 
    - it[tab] : text formating italic
    - bf[tab] : text formatting bold
@@ -73,14 +76,15 @@ CONTENTS
 ===============================================================================
 5. Coc Explorer Tree Viewer 					*mye*
 
-   - H = split
+   - X = hsplit
    - V = vsplit
    - t = tab
    - r = rename
-   - X = move/cut
-   - Y = new-copy
-   - P = paste
+   - x = move/cut
+   - y = new-copy
+   - p = paste
    - T = new-path
+   - A = new-dir
    - . = hidden-toggle
    - d = delete
    - R = reload
@@ -91,6 +95,7 @@ CONTENTS
 6. Fzf Fuzzy Finder 						*myf*
 
    - <C-f>   : Open :Files
+   - <C-p>   : Open FZF (not change dir)
    - <leader>b : Open :Buffers
    - <leader>g : Open Rg search
    - <C-t>   : tab split
