@@ -6,6 +6,7 @@ This text for user who forget always..
 CONTENTS
 
 	1. Normal Mode.......................................|myc|
+	1.1 Navigation buffers...............................|myn|
 	2. UltiSnips.........................................|mys|
 	3. Visual Mode.......................................|mycv|
 	4. Insert Mode.......................................|myci|
@@ -36,6 +37,12 @@ CONTENTS
 
 
    - s/S : Vim-Sneak (motion between found text)
+							*myn*
+1.1 Navigating Vim buffers(files)
+   - <C-l> 	: Flying to choosen buffer
+   - <leader>l  : Nav to next buffers
+   - <leader>h  : Nav to previous buffers
+
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense		*mys*
    - <C-l>   : expand snippet directly
