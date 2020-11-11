@@ -37,6 +37,8 @@ CONTENTS
 
 
    - s/S : Vim-Sneak (motion between found text)
+   - gaip*, : Align with vim-easy-align
+
 							*myn*
 1.1 Navigating Vim buffers(files)
    - <C-l> 	: Flying to choosen buffer
