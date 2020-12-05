@@ -55,6 +55,7 @@ CONTENTS
    - <prefix> - 	: splits pane vertically
    - <prefix> _ 	: splits pane vertically
    - <prefix> h,j,k,l 	: navigate pane
+e  - <prefix> H,J,K,L 	: resize pane
    - <prefix> +		: maximaze pane to new window
    - <prefix> C-h,l	: navigate window
 
