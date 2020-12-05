@@ -7,6 +7,7 @@ CONTENTS
 
 	1. Normal Mode.......................................|myc|
 	1.1 Navigation buffers...............................|myn|
+	1.2 Tmux Nav.........................................|myt|
 	2. UltiSnips.........................................|mys|
 	3. Visual Mode.......................................|mycv|
 	4. Insert Mode.......................................|myci|
@@ -44,6 +45,18 @@ CONTENTS
    - <C-l> 	: Flying to choosen buffer
    - <leader>l  : Nav to next buffers
    - <leader>h  : Nav to previous buffers
+
+
+							*myt*
+1.2 Navigating Tmux
+   - <prefix> 		: <C-a>
+   - <prefix> C-c	: creates a new session
+   - <prefix> C-f	: switch to another session by name
+   - <prefix> - 	: splits pane vertically
+   - <prefix> _ 	: splits pane vertically
+   - <prefix> h,j,k,l 	: navigate pane
+   - <prefix> +		: maximaze pane to new window
+   - <prefix> C-h,l	: navigate window
 
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense		*mys*
