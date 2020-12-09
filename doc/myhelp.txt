@@ -58,6 +58,7 @@ CONTENTS
 e  - <prefix> H,J,K,L 	: resize pane
    - <prefix> +		: maximaze pane to new window
    - <prefix> C-h,l	: navigate window
+   - <prefix> [     : scrool mode
 
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense		*mys*
