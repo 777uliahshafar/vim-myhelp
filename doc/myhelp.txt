@@ -11,6 +11,7 @@ CONTENTS
 	2. UltiSnips.........................................|mys|
 	3. Visual Mode.......................................|myv|
 	4. Insert Mode.......................................|myi|
+    4.1 Vim Pencil.......................................|myp|
 	5. Coc Tree Viewer...................................|mye|
 	6. Fzf fuzzy finder..................................|myf|
 	7. Vimagit git interface.............................|mym|
@@ -99,7 +100,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - \\w: Navigate to a word with EasyMotion’s help (works with any navigation
      commands)
 
-4.1 Text Formatting - Vim Pencil 			*mycif*
+4.1 Text Formatting - Vim Pencil 			*myp*
    - NoPencil : removes navigation mappings and restores buffer to global settings.
    - HardPencil : initialize pencil with hard line break mode (and Vim’s autoformat).
    - PencilSoft : initialize pencil with soft line wrap mode.
