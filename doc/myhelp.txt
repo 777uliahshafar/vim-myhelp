@@ -1,23 +1,24 @@
 *myhelp.txt*	For Vim version 7.4	Last change: 2014 October 8
-*myhelp*
-*myh*
+*cheat*
+*c*
 This text for user who forget always..
 ===============================================================================
 CONTENTS
 
-	1. Normal Mode.......................................|myc|
-	1.1 Navigation buffers...............................|myn|
+	1. Normal Mode.......................................|myn|
+	1.1 Navigation buffers...............................|myb|
 	1.2 Tmux Nav.........................................|myt|
 	2. UltiSnips.........................................|mys|
-	3. Visual Mode.......................................|mycv|
-	4. Insert Mode.......................................|myci|
+	3. Visual Mode.......................................|myv|
+	4. Insert Mode.......................................|myi|
 	5. Coc Tree Viewer...................................|mye|
 	6. Fzf fuzzy finder..................................|myf|
 	7. Vimagit git interface.............................|mym|
-	8. Rebuilding this file
+    8. How to ...........................................|myh|
+	9. Rebuilding this file
 
 ===============================================================================
-1. Normal Mode                                         *myc*
+1. Normal Mode                                         *myn*
 
    - :w : Save modified buffers
    - :x : Save buffer only if modified, then exit (better than :wq)
@@ -40,7 +41,7 @@ CONTENTS
    - s/S : Vim-Sneak (motion between found text)
    - gaip*, : Align with vim-easy-align
 
-							*myn*
+							*myb*
 1.1 Navigating Vim buffers(files)
    - <C-l> 	: Flying to choosen buffer
    - <leader>l  : Nav to next buffers
@@ -77,7 +78,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - ssub[tab] : making a subsubsection w/label
 ===============================================================================
 
-3. Visual Mode                                         *mycv*
+3. Visual Mode                                         *myv*
 
    - SHIFT-[LEFT/RIGHT] : Shift one word left or right
    - J : Join the highlighted lines, removing unnecessary whitespace.
@@ -88,7 +89,7 @@ e  - <prefix> H,J,K,L 	: resize pane
      contents)
 
 ===============================================================================
-4. Insert Mode                                         *myci*
+4. Insert Mode                                         *myi*
 
    - <C-N>: Complete word
    - <C-N><C-P>: Complete word (?)
@@ -143,7 +144,25 @@ e  - <prefix> H,J,K,L 	: resize pane
    - CC 	: Enter Commit Mode, CC again for commit in normal mode
 
 ===============================================================================
-8. Rebuilding this file.
+
+8. How to ...                               *myh*
+
+    - Use Recording to add and remove line after every few lines:
+* qq     " start recording to register q (you could use any register from a to z)
+* o      " insert an empty line below cursor
+* <Esc>  " switch to normal mode
+* jjj    " move the cursor 3 lines downward
+* q      " stop recording
+
+    - Add character to beginning of line:
+* <C-b>  " Enter visual block
+* j or k " Select lines you want to add character
+* <S-i>  " Type character to be inserted
+* <Esc>  " Wait a second to character be inserted
+
+===============================================================================
+
+9. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
