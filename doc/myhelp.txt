@@ -1,25 +1,26 @@
 *myhelp.txt*	For Vim version 7.4	Last change: 2014 October 8
-*cheat*
-*c*
+*myh*
+*h*
 This text for user who forget always..
 ===============================================================================
 CONTENTS
 
-	1. Normal Mode.......................................|myn|
-	1.1 Navigation buffers...............................|myb|
-	1.2 Tmux Nav.........................................|myt|
-	2. UltiSnips.........................................|mys|
-	3. Visual Mode.......................................|myv|
-	4. Insert Mode.......................................|myi|
-    4.1 Vim Pencil.......................................|myp|
-	5. Coc Tree Viewer...................................|mye|
-	6. Fzf fuzzy finder..................................|myf|
-	7. Vimagit git interface.............................|mym|
-    8. How to ...........................................|myh|
-	9. Rebuilding this file
+	1. Normal Mode.......................................|hn|
+	1.1 Navigation buffers...............................|hb|
+	1.2 Tmux Nav.........................................|ht|
+	2. UltiSnips.........................................|hs|
+	3. Visual Mode.......................................|hv|
+	4. Insert Mode.......................................|hi|
+    4.1 Vim Pencil.......................................|hp|
+    5. Vim Surround......................................|hsu|
+	6. Coc Tree Viewer...................................|he|
+	7. Fzf fuzzy finder..................................|hf|
+	8. Vimagit git interface.............................|hm|
+    9. How to ...........................................|hh|
+	10. Rebuilding this file
 
 ===============================================================================
-1. Normal Mode                                         *myn*
+1. Normal Mode                                         *hn*
 
    - :w : Save modified buffers
    - :x : Save buffer only if modified, then exit (better than :wq)
@@ -42,14 +43,14 @@ CONTENTS
    - s/S : Vim-Sneak (motion between found text)
    - gaip*, : Align with vim-easy-align
 
-							*myb*
+							*hb*
 1.1 Navigating Vim buffers(files)
    - <C-l> 	: Flying to choosen buffer
    - <leader>l  : Nav to next buffers
    - <leader>h  : Nav to previous buffers
 
 
-							*myt*
+							*ht*
 1.2 Navigating Tmux
    - <prefix> 		: <C-a>
    - <prefix> C-c	: creates a new session
@@ -63,7 +64,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <prefix> [     : scrool mode
 
 ==============================================================================
-2. Ultisnips- coc-snippets & Intellisense		*mys*
+2. Ultisnips- coc-snippets & Intellisense		*hs*
    - <C-l>   : expand snippet directly
    - [TAB]   : trigger auto-completion and snippets and jump next
    - [S-TAB] : jump previous
@@ -79,7 +80,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - ssub[tab] : making a subsubsection w/label
 ===============================================================================
 
-3. Visual Mode                                         *myv*
+3. Visual Mode                                         *hv*
 
    - SHIFT-[LEFT/RIGHT] : Shift one word left or right
    - J : Join the highlighted lines, removing unnecessary whitespace.
@@ -90,7 +91,7 @@ e  - <prefix> H,J,K,L 	: resize pane
      contents)
 
 ===============================================================================
-4. Insert Mode                                         *myi*
+4. Insert Mode                                         *hi*
 
    - <C-N>: Complete word
    - <C-N><C-P>: Complete word (?)
@@ -100,14 +101,26 @@ e  - <prefix> H,J,K,L 	: resize pane
    - \\w: Navigate to a word with EasyMotion’s help (works with any navigation
      commands)
 
-4.1 Text Formatting - Vim Pencil 			*myp*
+4.1 Text Formatting - Vim Pencil 			*hp*
    - NoPencil : removes navigation mappings and restores buffer to global settings.
    - HardPencil : initialize pencil with hard line break mode (and Vim’s autoformat).
    - PencilSoft : initialize pencil with soft line wrap mode.
 
+===============================================================================
+
+5. Vim surround                                     *hsu*
+
+    - cs"'      : change surround " to '
+    - cst"      : change surround tag to "
+    - ds"       : remove delimeters
+    - ysiw<em>  : add surround tag <em>
+    - viwS<em>  : add surround tag <em> visual
+    - ysiw [or] : [ give no space ] give space
+    - yss)      : add surround entire line )
+    - VS<div>   : enter visual line surround tag <div>
 
 ===============================================================================
-5. Coc Explorer Tree Viewer 					*mye*
+6. Coc Explorer Tree Viewer 					*he*
 
    - X = hsplit
    - V = vsplit
@@ -125,7 +138,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <bs> = gotoParent
 
 ===============================================================================
-6. Fzf Fuzzy Finder 						*myf*
+7. Fzf Fuzzy Finder 						*hf*
 
    - <C-f>   : Open :Files
    - <C-p>   : Open FZF (not change dir)
@@ -138,7 +151,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <C-k>   : down
 ===============================================================================
 
-7. Vimagit Git interface 					*mym*
+8. Vimagit Git interface 					*hm*
 
    - <leader> m : Open MagitOnly Buffers
    - S      	: Stage or Unstage depend on cursor
@@ -146,7 +159,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-8. How to ...                               *myh*
+9. How to ...                               *hh*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -163,7 +176,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-9. Rebuilding this file.
+10. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
