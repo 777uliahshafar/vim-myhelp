@@ -16,39 +16,41 @@ CONTENTS
 	6. Coc Tree Viewer...................................|he|
 	7. Fzf fuzzy finder..................................|hf|
 	8. Vimagit git interface.............................|hm|
-    9. How to ...........................................|hh|
-	10. Rebuilding this file
+    9. R/ TeX Workflow...................................|hw|
+    10. How to ..........................................|hh|
+	11. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *hn*
 
-   - :w : Save modified buffers
-   - :x : Save buffer only if modified, then exit (better than :wq)
-   - }  : next paragraph
-   - ]] : next section
-   - ]m : next method
-   - [m : back to the start of the method
-   - ) : Next sentence
+   - :w     : Save modified buffers
+   - :x     : Save buffer only if modified, then exit (better than : wq)
+   - }      : next paragraph
+   - ]]     : next section
+   - ]m     : next method
+   - [m     : back to the start of the method
+   - )      : Next sentence
    - CTRL-D : Down half a page
    - CTRL-U : Up half a page
-   - e : mov end of word
-   - b : mov back word
-   - ~ Uppercase a letter (works on ranges)
+   - e      : mov end of word
+   - b      : mov back word
+   - ~      : Uppercase a letter (works on ranges)
 
-   - C : Delete from cursor to end of the line and start insert.
-   - /<C-R><C-W>: Pull word into command line (or search)
-   - :reg : list registers (and show what’s in them)
+   - C           : Delete from cursor to end of the line and start insert.
+   - /<C-R><C-W> : Pull word into command line (or search)
+   - reg         : list registers (and show what’s in them)
 
 
-   - s/S : Vim-Sneak (motion between found text)
+   - s/S    : Vim-Sneak (motion between found text)
    - gaip*, : Align with vim-easy-align
 
 							*hb*
 1.1 Navigating Vim buffers(files)
-   - <C-l> 	: Flying to choosen buffer
-   - <leader>l  : Nav to next buffers
-   - <leader>h  : Nav to previous buffers
-
+   - <C-l>     : Flying to choosen buffer
+   - <leader>l : Nav to next buffers
+   - <leader>h : Nav to previous buffers
+   - <C-w> H   : Go from horizontal to vertical
+   - <C-w> r   : Swap the two buffers
 
 							*ht*
 1.2 Navigating Tmux
@@ -69,40 +71,40 @@ e  - <prefix> H,J,K,L 	: resize pane
    - [TAB]   : trigger auto-completion and snippets and jump next
    - [S-TAB] : jump previous
 
-   - it[tab] : text formating italic
-   - bf[tab] : text formatting bold
-   - ul[tab] : text formatting underline
-   - ci[tab] : cite a reference
-   - cip[tab]: cite a reference, all in parentheses
+   - it[tab]  : text formating italic
+   - bf[tab]  : text formatting bold
+   - ul[tab]  : text formatting underline
+   - ci[tab]  : cite a reference
+   - cip[tab] : cite a reference, all in parentheses
 
-   - sc[tab] : making a section w/ label
-   - sub[tab]: making a subsection w/ label
+   - sc[tab]   : making a section w/ label
+   - sub[tab]  : making a subsection w/ label
    - ssub[tab] : making a subsubsection w/label
 ===============================================================================
 
 3. Visual Mode                                         *hv*
 
    - SHIFT-[LEFT/RIGHT] : Shift one word left or right
-   - J : Join the highlighted lines, removing unnecessary whitespace.
-   - va' : select a single-quoted string (also works with " and `)
-   - vi' : select the contents of a single-quoted string
-   - vab : select a "block" (works differently in different langs)
-   - vat : select a <tag> and its contents (use i instead of a for just
+   - J                  : Join the highlighted lines, removing unnecessary whitespace.
+   - va'                : select a single-quoted string (also works with " and `)
+   - vi'                : select the contents of a single-quoted string
+   - vab                : select a "block" (works differently in different langs)
+   - vat                : select a <tag> and its contents (use i instead of a for just
      contents)
 
 ===============================================================================
 4. Insert Mode                                         *hi*
 
-   - <C-N>: Complete word
-   - <C-N><C-P>: Complete word (?)
-   - <C-X><C-L>: Complete line (!!)
-   - \cc: <Leader>cc Comment out all selected rows with a single-line comment
+   - <C-N>      : Complete word
+   - <C-N><C-P> : Complete word (?)
+   - <C-X><C-L> : Complete line (!!)
+   - \cc        : <Leader>cc Comment out all selected rows with a single-line comment
      (//) — part of NERDCommenter
-   - \\w: Navigate to a word with EasyMotion’s help (works with any navigation
+   - \\w        : Navigate to a word with EasyMotion’s help (works with any navigation
      commands)
 
 4.1 Text Formatting - Vim Pencil 			*hp*
-   - NoPencil : removes navigation mappings and restores buffer to global settings.
+   - NoPencil   : removes navigation mappings and restores buffer to global settings.
    - HardPencil : initialize pencil with hard line break mode (and Vim’s autoformat).
    - PencilSoft : initialize pencil with soft line wrap mode.
 
@@ -122,44 +124,69 @@ e  - <prefix> H,J,K,L 	: resize pane
 ===============================================================================
 6. Coc Explorer Tree Viewer 					*he*
 
-   - X = hsplit
-   - V = vsplit
-   - t = tab
-   - r = rename
-   - x = move/cut
-   - y = new-copy
-   - p = paste
-   - T = new-path
-   - A = new-dir
-   - . = hidden-toggle
-   - d = delete
-   - R = reload
-   - q = quit
+   - X    = hsplit
+   - V    = vsplit
+   - t    = tab
+   - r    = rename
+   - x    = move/cut
+   - y    = new-copy
+   - p    = paste
+   - T    = new-path
+   - A    = new-dir
+   - .    = hidden-toggle
+   - d    = delete
+   - R    = reload
+   - q    = quit
    - <bs> = gotoParent
 
 ===============================================================================
 7. Fzf Fuzzy Finder 						*hf*
 
-   - <C-f>   : Open :Files
-   - <C-p>   : Open FZF (not change dir)
-   - <leader>b : Open :Buffers
+   - <C-f>     : Open : Files
+   - <C-p>     : Open FZF (not change dir)
+   - <leader>b : Open : Buffers
    - <leader>g : Open Rg search
-   - <C-t>   : tab split
-   - <C-x>   : split
-   - <C-v>   : vsplit
-   - <C-j>   : up
-   - <C-k>   : down
+   - <C-t>     : tab split
+   - <C-x>     : split
+   - <C-v>     : vsplit
+   - <C-j>     : up
+   - <C-k>     : down
 ===============================================================================
 
 8. Vimagit Git interface 					*hm*
 
    - <leader> m : Open MagitOnly Buffers
-   - S      	: Stage or Unstage depend on cursor
-   - CC 	: Enter Commit Mode, CC again for commit in normal mode
+   - S          : Stage or Unstage depend on cursor
+   - CC         : Enter Commit Mode, CC again for commit in normal mode
 
 ===============================================================================
 
-9. How to ...                               *hh*
+9. R / Tex Workflow                          *hw*
+
+   - <lleader>rf(default \) : Open terminal R console
+   - <C-\> <C-n> / jk       : Scroll on R console, i for exit
+   - <localleader>rf        : Connect to R console.
+   - rq                     : Quit R console.
+   - ro                     : Open object bowser.
+   - kn                     : Knit(cur file)
+   - kp                     : Knit and Pdf(cur file)
+   - lp                     : Search forward pdf(SyncTeX)
+   - d                      : Execute current line of code and move to the next line.
+   - ss                     : Execute a block of selected code.
+   - aa                     : Execute the entire script. This is equivalent to source().
+   - xx                     : Toggle comment in an R script.
+   - gz                     : maximaze buffer, hide console
+
+   - lc                     : compile tex file
+   - le                     : show quickfix list(log error)
+   - lc/lC                  : delete Aux files
+
+
+
+
+===============================================================================
+
+10. How to ...                               *hh*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -176,7 +203,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-10. Rebuilding this file.
+11. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
