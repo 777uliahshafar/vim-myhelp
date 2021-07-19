@@ -17,8 +17,9 @@ CONTENTS
 	7. Fzf fuzzy finder..................................|hf|
 	8. Vimagit git interface.............................|hm|
     9. R/ TeX Workflow...................................|hw|
-    10. How to ..........................................|hh|
-	11. Rebuilding this file
+    10. Vimwiki..........................................|hvi|
+    11. How to ..........................................|hh|
+	12. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *hn*
@@ -182,11 +183,18 @@ e  - <prefix> H,J,K,L 	: resize pane
    - lc/lC                  : delete Aux files
 
 
+===============================================================================
 
+10. Vimwiki                                 *hwi*
+
+   - <leader>w<leader>i     : Update entries on VimwikiDiary
+   - Create diary note with template : VimwikiMakeDiaryNote
+   - wi                     : Vimwiki Diary Index
+   - ww                     : Vimwiki Index
 
 ===============================================================================
 
-10. How to ...                               *hh*
+11. How to ...                               *hh*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -203,7 +211,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-11. Rebuilding this file.
+12. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
