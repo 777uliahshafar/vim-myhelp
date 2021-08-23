@@ -166,6 +166,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
+   - <C-w> k                : Switch out from R console
    - <localleader>rf        : Connect to R console.
    - rq                     : Quit R console.
    - ro                     : Open object bowser.
