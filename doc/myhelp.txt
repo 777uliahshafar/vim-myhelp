@@ -210,6 +210,14 @@ e  - <prefix> H,J,K,L 	: resize pane
 * <S-i>  " Type character to be inserted
 * <Esc>  " Wait a second to character be inserted
 
+
+    - How do I rename all files to lowercase:
+* cd to directory, then paste this command
+
+for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower:]"`"; done
+
+
+
 ===============================================================================
 
 12. Rebuilding this file.
