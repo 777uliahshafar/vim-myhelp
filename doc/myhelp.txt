@@ -67,7 +67,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <prefix> [     : scrool mode
 
 ==============================================================================
-2. Ultisnips- coc-snippets & Intellisense		*hs*
+2. Ultisnips- coc-snippets & Intellisense (coc)		*hs*
    - <C-l>   : expand snippet directly
    - [TAB]   : trigger auto-completion and snippets and jump next
    - [S-TAB] : jump previous
@@ -81,6 +81,8 @@ e  - <prefix> H,J,K,L 	: resize pane
    - sc[tab]   : making a section w/ label
    - sub[tab]  : making a subsection w/ label
    - ssub[tab] : making a subsubsection w/label
+
+   - <C-x><C-o> : complete cite
 ===============================================================================
 
 3. Visual Mode                                         *hv*
