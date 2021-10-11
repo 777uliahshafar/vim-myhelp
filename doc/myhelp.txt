@@ -191,9 +191,10 @@ e  - <prefix> H,J,K,L 	: resize pane
 10. Vimwiki                                 *hwi*
 
    - <leader>w<leader>i     : Update entries on VimwikiDiary
-   - Create diary note with template : VimwikiMakeDiaryNote
+   - md or VimwikiMakeDiaryNote  : Make new diary
    - wi                     : Vimwiki Diary Index
    - ww                     : Vimwiki Index
+   - <C-Space>              : Toggle list item on/off
 
 ===============================================================================
 
