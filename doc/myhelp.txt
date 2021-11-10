@@ -56,8 +56,12 @@ CONTENTS
 							*ht*
 1.2 Navigating Tmux
    - <prefix> 		: <C-a>
-   - <prefix> C-c	: creates a new session
+   - <prefix> C-c	: creates a new window
    - <prefix> C-f	: switch to another session by name
+   - <prefix> d     : detach from session
+   - tmux new -s sessionname :  create new session
+   - tmux ls        :  show listed session
+   - tmux attach -t sessionname :  attact  session
    - <prefix> - 	: splits pane vertically
    - <prefix> _ 	: splits pane vertically
    - <prefix> h,j,k,l 	: navigate pane
