@@ -8,6 +8,7 @@ CONTENTS
 	1. Normal Mode.......................................|hn|
 	1.1 Navigation buffers...............................|hb|
 	1.2 Tmux Nav.........................................|ht|
+    1.3 Folding..........................................|hfo|
 	2. UltiSnips.........................................|hs|
 	3. Visual Mode.......................................|hv|
 	4. Insert Mode.......................................|hi|
@@ -69,6 +70,16 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <prefix> +		: maximaze pane to new window
    - <prefix> C-h,l	: navigate window
    - <prefix> [     : scrool mode
+
+
+							*hfo*
+1.3 Folding
+
+   - zM   : close all folds
+   - zR   : open all folds
+   - zc   : close current folds
+   - zo   : open current folds
+
 
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense (coc)		*hs*
