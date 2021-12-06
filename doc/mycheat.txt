@@ -43,8 +43,8 @@ CONTENTS
    - /<C-R><C-W> : Pull word into command line (or search)
    - reg         : list registers (and show what’s in them)
 
-
-   - s/S    : Vim-Sneak (motion between found text)
+   - s/S          : Vim-Sneak (motion between found text)
+   - %s/foo/bar/g : Replace text on vim
 
 							*cb*
 1.1 Navigating Vim buffers(files)
