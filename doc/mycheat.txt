@@ -214,6 +214,13 @@ e  - <prefix> H,J,K,L 	: resize pane
    - ww                     : Vimwiki Index
    - <C-Space>              : Toggle list item on/off
 
+
+   - =                      : add header level, - remove instead
+
+   - <Tab>                  : goto next link, <S-Tab> previous instead
+   - <C-Space>              : Toggle list item on/off
+   - <C-Space>              : Toggle list item on/off
+
 ===============================================================================
 
 11. Vim-easy-align                           *cea*
