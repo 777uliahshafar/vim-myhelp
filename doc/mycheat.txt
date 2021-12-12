@@ -221,6 +221,12 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <C-Space>              : Toggle list item on/off
    - <C-Space>              : Toggle list item on/off
 
+   - []                     : go to previous sibling header
+   - ][                     : go to next sibling header
+   - [u                     : go to parent header
+
+
+
 ===============================================================================
 
 11. Vim-easy-align                           *cea*
