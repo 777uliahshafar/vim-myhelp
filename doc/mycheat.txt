@@ -225,6 +225,9 @@ e  - <prefix> H,J,K,L 	: resize pane
    - ][                     : go to next sibling header
    - [u                     : go to parent header
 
+   - VimwikiTOC             : Insert toc at the first line.
+
+
 
 
 ===============================================================================
