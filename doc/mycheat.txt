@@ -278,6 +278,8 @@ for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower
     - Convert md to html in spesific folder within wordir
 
 pandoc -t html hello.md > html/hello.html
+or
+pandoc -o html/hi.html hello.md
 
 ===============================================================================
 
