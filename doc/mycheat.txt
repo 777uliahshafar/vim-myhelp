@@ -9,6 +9,7 @@ CONTENTS
 	1.1 Navigation buffers...............................|cb|
 	1.2 Tmux Nav.........................................|ct|
     1.3 Folding..........................................|cfo|
+    1.4 Spell............................................|csp|
 	2. UltiSnips.........................................|cs|
 	3. Visual Mode.......................................|cv|
 	4. Insert Mode.......................................|ci|
@@ -81,6 +82,13 @@ e  - <prefix> H,J,K,L 	: resize pane
    - zc   : close current folds
    - zo   : open current folds
 
+							*csp*
+1.3 Spell
+
+   - <leader>o : Set id spell
+   - <F7>      : Set en_us spell
+   - ]s / [s   : move cursor to misspelled word
+   - zg        : add word to spellfile
 
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense (coc)		*cs*
