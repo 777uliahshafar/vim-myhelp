@@ -89,6 +89,8 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <F7>      : Set en_us spell
    - ]s / [s   : move cursor to misspelled word
    - zg        : add word to spellfile
+   - z=        : word suggestion
+   - 1z=       : change misspelled word to first suggestion word
 
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense (coc)		*cs*
