@@ -14,14 +14,15 @@ CONTENTS
 	4. Insert Mode.......................................|ci|
     4.1 Vim Pencil.......................................|cp|
     5. Vim Surround......................................|csu|
-	6. Coc Tree Viewer...................................|ce|
-	7. Fzf fuzzy finder..................................|cf|
-	8. Vimagit git interface.............................|cm|
-    9. R/ TeX Workflow...................................|cr|
-    10. Vimwiki..........................................|cwi|
-    11. Vim-easy-align...................................|cea|
-    12. How to ..........................................|ch|
-	13. Rebuilding this file
+    6. Vim Signature.....................................|csi|
+	7. Coc Tree Viewer...................................|ce|
+	8. Fzf fuzzy finder..................................|cf|
+	9. Vimagit git interface.............................|cm|
+    10. R/ TeX Workflow...................................|cr|
+    11. Vimwiki..........................................|cwi|
+    12. Vim-easy-align...................................|cea|
+    13. How to ..........................................|ch|
+	14. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *cn*
@@ -140,7 +141,18 @@ e  - <prefix> H,J,K,L 	: resize pane
     - VS<div>   : enter visual line surround tag <div>
 
 ===============================================================================
-6. Coc Explorer Tree Viewer 					*ce*
+
+6. Vim signature                                     *csi*
+
+    - mx       : Toggle mark 'x' and display it in the leftmost column
+    - dmx      : Remove mark 'x' where x is a-zA-Z
+    - m,       : Place the next available mark
+    - m-       : Delete all marks from the current line
+    - m<Space> : Delete all marks from the current buffer
+
+===============================================================================
+
+7. Coc Explorer Tree Viewer 					*ce*
 
    - X    = hsplit
    - V    = vsplit
@@ -158,7 +170,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <bs> = gotoParent
 
 ===============================================================================
-7. Fzf Fuzzy Finder 						*cf*
+8. Fzf Fuzzy Finder 						*cf*
 
    - <C-f>     : Open : Files
    - <C-p>     : Open FZF (not change dir)
@@ -171,7 +183,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <C-k>     : down
 ===============================================================================
 
-8. Vimagit Git interface 					*cm*
+9. Vimagit Git interface 					*cm*
 
    - <leader> m : Open MagitOnly Buffers
    - S          : Stage or Unstage depend on cursor
@@ -179,7 +191,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-9. R / Tex Workflow                          *cr*
+10. R / Tex Workflow                          *cr*
 
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
@@ -206,7 +218,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-10. Vimwiki                                 *cwi*
+11. Vimwiki                                 *cwi*
 
    - <leader>w<leader>i     : Update entries on VimwikiDiary
    - md or VimwikiMakeDiaryNote  : Make new diary
@@ -232,7 +244,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-11. Vim-easy-align                           *cea*
+12. Vim-easy-align                           *cea*
 
    - gaip*,           : Align delimeters ,
    - gaip* <CTRL-X> ; : Align delimeters ;
@@ -254,7 +266,7 @@ note:
 
 ===============================================================================
 
-12. How to ...                               *ch*
+13. How to ...                               *ch*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -283,7 +295,7 @@ pandoc -o html/hi.html hello.md
 
 ===============================================================================
 
-13. Rebuilding this file.
+14. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
