@@ -302,6 +302,8 @@ for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower
 pandoc -t html hello.md > html/hello.html
 or
 pandoc -o html/hi.html hello.md
+    - Convert md to pdf
+* <leader> lc  "compile to pdf
 
 ===============================================================================
 
