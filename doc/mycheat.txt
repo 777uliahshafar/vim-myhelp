@@ -81,6 +81,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - zR   : open all folds
    - zc   : close current folds
    - zo   : open current folds
+   - <F6> : fastfold update
 
 							*csp*
 1.3 Spell
