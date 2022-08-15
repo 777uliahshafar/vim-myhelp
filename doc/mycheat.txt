@@ -145,7 +145,8 @@ e  - <prefix> H,J,K,L 	: resize pane
     - cs"'      : change surround " to '
     - cst"      : change surround tag to "
     - ds"       : remove delimeters
-    - ysiw<em>  : add surround tag <em>
+    - ysiw<em>  : add surround tag <em>..</em>
+    - ysiw>     : add single suround <..>
     - viwS<em>  : add surround tag <em> visual
     - ysiw [or] : [ give no space ] give space
     - yss)      : add surround entire line )
