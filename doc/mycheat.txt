@@ -10,6 +10,8 @@ CONTENTS
 	1.2 Tmux Nav.........................................|ct|
     1.3 Folding..........................................|cfo|
     1.4 Spell............................................|csp|
+    1.5 Vim-grammarous...................................|cg|
+    1.6 Vim-lexical......................................|cl|
 	2. UltiSnips.........................................|cs|
 	3. Visual Mode.......................................|cv|
 	4. Insert Mode.......................................|ci|
@@ -93,6 +95,22 @@ e  - <prefix> H,J,K,L 	: resize pane
    - z=        : word suggestion
    - 1z=       : change misspelled word to first suggestion word
 
+							*cg*
+1.4 Vim-grammarous
+
+   - <localleader>g : Grammarous Check
+   - <c-n>          : next error
+   - <c-p>          : previous error
+
+							*cl*
+1.5 Vim-lexical
+
+   - <localleader>t : Thesaurus lexical(normal)
+   - <localleader>k : Dictionary lexical(normal)
+   - <c-x><c-t>     : Thesaurus lookup(insert)
+   - <c-x><c-k>     : Dictionary completion(insert)
+
+   - <c-n><c-p>     : to navigate(insert)
 ==============================================================================
 2. Ultisnips- coc-snippets & Intellisense (coc)		*cs*
    - <C-l>   : expand snippet directly
