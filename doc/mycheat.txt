@@ -247,8 +247,8 @@ e  - <prefix> H,J,K,L 	: resize pane
 
    - <leader>w<leader>i     : Update entries on VimwikiDiary
    - md or VimwikiMakeDiaryNote  : Make new diary
-   - wi                     : Vimwiki Diary Index
-   - ww                     : Vimwiki Index
+   - wd                     : Vimwiki Diary Index
+   - wi                     : Vimwiki Index
    - <C-Space>              : Toggle list item on/off
 
 
