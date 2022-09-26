@@ -101,6 +101,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <localleader>g : Grammarous Check
    - <c-n>          : next error
    - <c-p>          : previous error
+   - GrammarousReset : reset the current check
 
 							*ck*
 1.5 Thesaurus query
