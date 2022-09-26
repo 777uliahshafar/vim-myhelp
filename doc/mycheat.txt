@@ -99,9 +99,10 @@ e  - <prefix> H,J,K,L 	: resize pane
 1.4 Vim-grammarous
 
    - <localleader>g : Grammarous Check
+   - <c-g>          : Grammarous Reset
    - <c-n>          : next error
    - <c-p>          : previous error
-   - GrammarousReset : reset the current check
+   - <c-o>          : open the info window
 
 							*ck*
 1.5 Thesaurus query
