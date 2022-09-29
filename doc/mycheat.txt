@@ -257,8 +257,10 @@ e  - <prefix> H,J,K,L 	: resize pane
    - =                      : add header level, - remove instead
 
    - <Tab>                  : goto next link, <S-Tab> previous instead
-   - <C-Space>              : Toggle list item on/off
-   - <C-Space>              : Toggle list item on/off
+
+   - <C-space>              : Add checkbox
+   - gl<space>              : Remove checkbox
+   - gln / glp              : toggle forward completion(progress) levels
 
    - []                     : go to previous sibling header
    - ][                     : go to next sibling header
