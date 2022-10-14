@@ -174,8 +174,11 @@ e  - <prefix> H,J,K,L 	: resize pane
     - mx       : Toggle mark 'x' and display it in the leftmost column
     - dmx      : Remove mark 'x' where x is a-zA-Z
     - m,       : Place the next available mark
+    - ]`       : Jump to next mark
+    - [`       : Jump to prev mark
     - m-       : Delete all marks from the current line
     - m<Space> : Delete all marks from the current buffer
+    - m/       : Open location list
 
 ===============================================================================
 
