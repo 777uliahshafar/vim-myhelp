@@ -24,8 +24,9 @@ CONTENTS
     10. R/ TeX Workflow...................................|cr|
     11. Vimwiki..........................................|cwi|
     12. Vim-easy-align...................................|cea|
-    13. How to ..........................................|ch|
-	14. Rebuilding this file
+    13. Vimdiff or gitdiff...............................|cgd|
+    14. How to ..........................................|ch|
+	15. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *cn*
@@ -299,7 +300,16 @@ note:
 
 ===============================================================================
 
-13. How to ...                               *ch*
+13. Vimdiff or gitdiff                           *cgd*
+   ]c or [c            : Motion through changes
+   do                  : put back deleted
+   dp                  :
+   diffupdate          : recoloring diff
+
+
+
+===============================================================================
+14. How to ...                               *ch*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -330,7 +340,7 @@ pandoc -o html/hi.html hello.md
 
 ===============================================================================
 
-14. Rebuilding this file.
+15. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
