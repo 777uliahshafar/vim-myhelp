@@ -305,8 +305,10 @@ note:
    do                  : put back deleted
    dp                  :
    diffupdate          : recoloring diff
-
-
+   git d head^         : diff between the last two commit
+   git config --global diff.tool vimdiff
+   git config --global difftool.prompt false
+   git config --global alias.d difftool
 
 ===============================================================================
 14. How to ...                               *ch*
