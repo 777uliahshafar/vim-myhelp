@@ -272,6 +272,9 @@ e  - <prefix> H,J,K,L 	: resize pane
    - [u                     : go to parent header
 
    - VimwikiTOC             : Insert toc at the first line.
+   - F1                     : save markdown on uliahweb
+   - F2                     : put timestamp on filename
+   - <leader> D             : put timestamp on buffer
 
 
 
