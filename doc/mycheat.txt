@@ -253,6 +253,9 @@ e  - <prefix> H,J,K,L 	: resize pane
 11. Vimwiki                                 *cwi*
 
    - <leader>w<leader>i     : Update entries on VimwikiDiary
+   - <Leader>wt             : VimwikiTOC
+   - <Leader>wc             : highlighted
+   - <leader> D             : Put timestamp
    - md or VimwikiMakeDiaryNote  : Make new diary
    - wd                     : Vimwiki Diary Index
    - wi                     : Vimwiki Index
