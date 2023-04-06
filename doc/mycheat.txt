@@ -256,6 +256,7 @@ e  - <prefix> H,J,K,L 	: resize pane
    - <Leader>wt             : VimwikiTOC
    - <Leader>wc             : highlighted
    - <leader> D             : Put timestamp
+   - <F3>                   : Show trailwhitespace as character
    - md or VimwikiMakeDiaryNote  : Make new diary
    - wd                     : Vimwiki Diary Index
    - wi                     : Vimwiki Index
