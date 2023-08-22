@@ -60,22 +60,7 @@ CONTENTS
    - <C-w> r   : Swap the two buffers
 
 							*ct*
-1.2 Navigating Tmux
-   - <prefix> 		: <C-a>
-   - <prefix> C-c	: creates a new window
-   - <prefix> C-f	: switch to another session by name
-   - <prefix> d     : detach from session
-   - tmux new -s sessionname :  create new session
-   - tmux ls        :  show listed session
-   - tmux attach -t sessionname :  attact  session
-   - <prefix> - 	: splits pane vertically
-   - <prefix> _ 	: splits pane vertically
-   - <prefix> h,j,k,l 	: navigate pane
-e  - <prefix> H,J,K,L 	: resize pane
-   - <prefix> +		: maximaze pane to new window
-   - <prefix> C-h,l	: navigate window
-   - <prefix> [     : scrool mode
-
+1.2 Navigating Pane
 
 							*cfo*
 1.3 Folding
@@ -96,34 +81,12 @@ e  - <prefix> H,J,K,L 	: resize pane
    - z=        : word suggestion
    - 1z=       : change misspelled word to first suggestion word
 
-							*cg*
-1.4 Vim-grammarous
-
-   - <localleader>g : Grammarous Check
-   - <c-g>          : Grammarous Reset
-   - <c-n>          : next error
-   - <c-p>          : previous error
-   - <c-o>          : open the info window
-
-							*ck*
-1.5 Thesaurus query
-
-   - <localleader>k : Thesaurus query(normal)
 ==============================================================================
-2. Ultisnips- coc-snippets & Intellisense (coc)		*cs*
+                            *cs*
+2. Luasnip
    - <C-l>   : expand snippet directly
    - [TAB]   : trigger auto-completion and snippets and jump next
    - [S-TAB] : jump previous
-
-   - it[tab]  : text formating italic
-   - bf[tab]  : text formatting bold
-   - ul[tab]  : text formatting underline
-   - ci[tab]  : cite a reference
-   - cip[tab] : cite a reference, all in parentheses
-
-   - sc[tab]   : making a section w/ label
-   - sub[tab]  : making a subsection w/ label
-   - ssub[tab] : making a subsubsection w/label
 
    - <C-x><C-o> : complete cite
 ===============================================================================
@@ -149,11 +112,6 @@ e  - <prefix> H,J,K,L 	: resize pane
    - \\w        : Navigate to a word with EasyMotion’s help (works with any navigation
      commands)
 
-4.1 Text Formatting - Vim Pencil 			*cp*
-   - NoPencil   : removes navigation mappings and restores buffer to global settings.
-   - HardPencil : initialize pencil with hard line break mode (and Vim’s autoformat).
-   - PencilSoft : initialize pencil with soft line wrap mode.
-
 ===============================================================================
 
 5. Vim surround                                     *csu*
@@ -170,7 +128,7 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-6. Vim signature                                     *csi*
+6. nvim marks                                       *csi*
 
     - mx       : Toggle mark 'x' and display it in the leftmost column
     - dmx      : Remove mark 'x' where x is a-zA-Z
@@ -183,47 +141,16 @@ e  - <prefix> H,J,K,L 	: resize pane
     - m/       : Open location list
 
 ===============================================================================
+8. Telescope 						*cf*
 
-7. Coc Explorer Tree Viewer 					*ce*
-
-   - X    = hsplit
-   - V    = vsplit
-   - t    = tab
-   - r    = rename
-   - x    = move/cut
-   - y    = new-copy
-   - p    = paste
-   - T    = new-path
-   - A    = new-dir
-   - .    = hidden-toggle
-   - d    = delete
-   - R    = reload
-   - q    = quit
-   - <bs> = gotoParent
-
-===============================================================================
-8. Fzf Fuzzy Finder 						*cf*
-
-   - <C-f>     : Open : Files
-   - <C-p>     : Open FZF (not change dir)
-   - <leader>b : Open : Buffers
-   - <leader>g : Open Rg search
-   - <C-t>     : tab split
-   - <C-x>     : split
-   - <C-v>     : vsplit
-   - <C-j>     : up
-   - <C-k>     : down
-===============================================================================
-
-9. Vimagit Git interface 					*cm*
-
-   - <leader> m : Open MagitOnly Buffers
-   - S          : Stage or Unstage depend on cursor
-   - CC         : Enter Commit Mode, CC again for commit in normal mode
+   - <leader>ff     : Open Files
+   - <C-p>          : Open FZF (not change dir)
+   - <leader>fb     : Open Buffers
+   - <leader>fw     : Open Rg search
 
 ===============================================================================
 
-10. R / Tex Workflow                          *cr*
+10. R / Tex Workflow (unavailable)                          *cr*
 
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
@@ -250,38 +177,9 @@ e  - <prefix> H,J,K,L 	: resize pane
 
 ===============================================================================
 
-11. Vimwiki                                 *cwi*
-
-   - <leader>w<leader>i     : Update entries on VimwikiDiary
-   - <Leader>wt             : VimwikiTOC
-   - <Leader>wc             : highlighted
-   - <leader> D             : Put timestamp
-   - <F3>                   : Show trailwhitespace as character
-   - md or VimwikiMakeDiaryNote  : Make new diary
-   - wd                     : Vimwiki Diary Index
-   - wi                     : Vimwiki Index
-   - <C-Space>              : Toggle list item on/off
-
-
-   - =                      : add header level, - remove instead
-
-   - <Tab>                  : goto next link, <S-Tab> previous instead
-
-   - <C-space>              : Add checkbox
-   - gl<space>              : Remove checkbox
-   - gln / glp              : toggle forward completion(progress) levels
-
-   - []                     : go to previous sibling header
-   - ][                     : go to next sibling header
-   - [u                     : go to parent header
-
-   - VimwikiTOC             : Insert toc at the first line.
-   - F1                     : save markdown on uliahweb
-   - F2                     : put timestamp on filename
-   - <leader> D             : put timestamp on buffer
-
-
-
+11. Neorg                                 *cwi*
+   - wi                     : Neorg Index
+   - <leader>c              : Toggle list item on/off
 
 ===============================================================================
 
