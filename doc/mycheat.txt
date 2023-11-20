@@ -83,7 +83,13 @@ CONTENTS
 2.2 Luasnip Beamer
    - frame   : create frame
    - bc : create background canvas
-
+   - co : color
+   - clr : color text
+   - col2 : two-column environment
+   - subfig : subfigure environment
+   - multifig : multi figure environment
+   - only : overlay
+   - sli : overlay
 ===============================================================================
 
 3. Visual Mode                                         *cv*
