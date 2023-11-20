@@ -88,8 +88,9 @@ CONTENTS
    - col2 : two-column environment
    - subfig : subfigure environment
    - multifig : multi figure environment
-   - only : overlay
-   - sli : overlay
+   - ova : overlay only
+   - ovb : overlay onslide
+   - ovi : overlay item
 ===============================================================================
 
 3. Visual Mode                                         *cv*
