@@ -1,32 +1,24 @@
 *mycheat.txt*	For Vim version 7.4	Last change: 2014 October 8
-*myc*
 *c*
-This text for user who forget always..
 ===============================================================================
 CONTENTS
 
 	1. Normal Mode.......................................|cn|
 	1.1 Navigation buffers...............................|cb|
-	1.2 Tmux Nav.........................................|ct|
-    1.3 Folding..........................................|cfo|
-    1.4 Spell............................................|csp|
-    1.5 Vim-grammarous...................................|cg|
-    1.6 Thesaurus query..................................|ck|
-	2. UltiSnips.........................................|cs|
+    1.2 Folding..........................................|cf|
+    1.3 Spell............................................|csp|
+	2. Luasnip...........................................|cs|
+	2.1 Luasnip beamer...................................|csb|
 	3. Visual Mode.......................................|cv|
 	4. Insert Mode.......................................|ci|
-    4.1 Vim Pencil.......................................|cp|
     5. Vim Surround......................................|csu|
-    6. Vim Signature.....................................|csi|
-	7. Coc Tree Viewer...................................|ce|
-	8. Fzf fuzzy finder..................................|cf|
-	9. Vimagit git interface.............................|cm|
-    10. R/ TeX Workflow...................................|cr|
-    11. Vimwiki..........................................|cwi|
-    12. Vim-easy-align...................................|cea|
-    13. Vimdiff or gitdiff...............................|cgd|
-    14. How to ..........................................|ch|
-	15. Rebuilding this file
+    6. Nvim Marks........................................|cm|
+    7. R/ TeX Workflow...................................|cr|
+    8. Neorg.............................................|cno|
+    9. Vimdiff or gitdiff................................|cd|
+    10. Telescope .......................................|ct|
+    11. How to ..........................................|ch|
+	12. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *cn*
@@ -52,18 +44,15 @@ CONTENTS
    - %s/foo/bar/g : Replace text on vim
 
 							*cb*
-1.1 Navigating Vim buffers(files)
+1.1 Navigating Vim buffers (files)
    - <C-l>     : Flying to choosen buffer
    - <leader>l : Nav to next buffers
    - <leader>h : Nav to previous buffers
    - <C-w> H   : Go from horizontal to vertical
    - <C-w> r   : Swap the two buffers
 
-							*ct*
-1.2 Navigating Pane
-
-							*cfo*
-1.3 Folding
+							*cf*
+1.2 Folding
 
    - zM   : close all folds
    - zR   : open all folds
@@ -89,6 +78,12 @@ CONTENTS
    - [S-TAB] : jump previous
 
    - <C-x><C-o> : complete cite
+
+							*csb*
+2.2 Luasnip Beamer
+   - frame   : create frame
+   - bc : create background canvas
+
 ===============================================================================
 
 3. Visual Mode                                         *cv*
@@ -128,7 +123,7 @@ CONTENTS
 
 ===============================================================================
 
-6. nvim marks                                       *csi*
+6. Nvim Marks                                       *cm*
 
     - mx       : Toggle mark 'x' and display it in the leftmost column
     - dmx      : Remove mark 'x' where x is a-zA-Z
@@ -141,16 +136,8 @@ CONTENTS
     - m/       : Open location list
 
 ===============================================================================
-8. Telescope 						*cf*
 
-   - <leader>ff     : Open Files
-   - <C-p>          : Open FZF (not change dir)
-   - <leader>fb     : Open Buffers
-   - <leader>fw     : Open Rg search
-
-===============================================================================
-
-10. R / Tex Workflow (unavailable)                          *cr*
+7. R / Tex Workflow (unavailable)                          *cr*
 
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
@@ -177,35 +164,14 @@ CONTENTS
 
 ===============================================================================
 
-11. Neorg                                 *cwi*
-   - wi                     : Neorg Index
+8. Neorg                                 *cno*
+   - <leader>ww             : Neorg Index
    - <leader>c              : Toggle list item on/off
+   - <BS>                   : previous notes
 
 ===============================================================================
 
-12. Vim-easy-align                           *cea*
-
-   - gaip*,           : Align delimeters ,
-   - gaip* <CTRL-X> ; : Align delimeters ;
-   - vipga,           : Align delimeters , in Visual
-
-note:
-    = Around the 1st occurrences
-    2= Around the 2nd occurrences
-    *= Around all occurrences
-    **= Left/Right alternating alignment around all occurrences
-    <Enter> Switching between left/right/center alignment modes
-    Delimiter key (a single keystroke; <Space>, =,: , ., |, &, #, ,) or an arbitrary regular expression followed by <CTRL-X>
-
-    CTRL-L  left_margin
-    CTRL-R  right_margin
-    CTRL-D  delimiter_align
-    <Left>  stick delimeters to the left
-    <Right> stick delimeters to the right
-
-===============================================================================
-
-13. Vimdiff or gitdiff                           *cgd*
+9. Vimdiff or gitdiff                           *cd*
    ]c or [c            : Motion through changes
    do                  : put back deleted
    dp                  :
@@ -216,7 +182,17 @@ note:
    git config --global alias.d difftool
 
 ===============================================================================
-14. How to ...                               *ch*
+
+10. Telescope 						*ct*
+
+   - <leader>ff     : Open Files
+   - <C-p>          : Open FZF (not change dir)
+   - <leader>fb     : Open Buffers
+   - <leader>fw     : Open Rg search
+
+===============================================================================
+
+11. How to ...                               *ch*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -247,7 +223,7 @@ pandoc -o html/hi.html hello.md
 
 ===============================================================================
 
-15. Rebuilding this file.
+12. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
