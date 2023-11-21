@@ -82,7 +82,7 @@ CONTENTS
 							*csb*
 2.2 Luasnip Beamer
    - frame   : create frame
-   - bc : create background canvas
+   - bg : create background canvas
    - co : color
    - clr : color text
    - col2 : two-column environment
