@@ -91,6 +91,16 @@ CONTENTS
    - ova : overlay only
    - ovb : overlay onslide
    - ovi : overlay item
+   - imgrow2 : row column image
+   - imglrow2
+   - imgrow3
+   - imglrow3
+   - imgcolumn
+   - imgcolumn2
+   - imgcolumn3
+   - imgrowcolumn2
+   - imgrowcolumn3
+
 ===============================================================================
 
 3. Visual Mode                                         *cv*
