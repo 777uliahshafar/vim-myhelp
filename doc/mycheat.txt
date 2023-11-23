@@ -35,6 +35,7 @@ CONTENTS
    - e      : mov end of word
    - b      : mov back word
    - ~      : Uppercase a letter (works on ranges)
+   - <leader> ua : Completion
 
    - C           : Delete from cursor to end of the line and start insert.
    - /<C-R><C-W> : Pull word into command line (or search)
