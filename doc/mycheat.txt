@@ -90,15 +90,15 @@ CONTENTS
    - col2 : two-column environment
    - subfig : subfigure environment
    - multifig : multi figure environment
-   - box : tpblock env
-   - pos : absolute positioning object
+   - box/boxp : tpblock env
+   - pos/posp : absolute positioning object
+   - note : centre note
    - img : includegraphich
    - ova : overlay only
    - ovb : overlay onslide
    - ovi : overlay item
    - imgrow2 : row column image
-   - imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3
-   - note : centre note
+   - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
 
 ===============================================================================
 
