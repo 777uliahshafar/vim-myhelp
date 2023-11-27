@@ -84,7 +84,6 @@ CONTENTS
 							*csb*
 2.2 Luasnip Beamer
    - frame   : create frame
-   - bg : create background canvas
    - co : color
    - clr : color text
    - col2 : two-column environment
@@ -92,11 +91,11 @@ CONTENTS
    - multifig : multi figure environment
    - box/boxp : tpblock env
    - pos/posp : absolute positioning object
-   - note : centre note
+   - note/notep : centre note
    - img : includegraphich
-   - ova : overlay only
-   - ovb : overlay onslide
-   - ovi : overlay item
+   - ovo/ovop : overlay only
+   - ovs/ovsp : overlay onslide
+   - ovi/ovip : overlay item
    - imgrow2 : row column image
    - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
 
