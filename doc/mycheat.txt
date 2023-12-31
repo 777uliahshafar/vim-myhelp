@@ -50,7 +50,8 @@ CONTENTS
    - <C-l>     : Flying to choosen buffer
    - <leader>l : Nav to next buffers
    - <leader>h : Nav to previous buffers
-   - <C-w> H   : Go from horizontal to vertical
+   - <leader>th: Go from horizontal to vertical
+   - <leader>tk: Go from vertical to horizontal
    - <C-w> r   : Swap the two buffers
 
 							*cf*
@@ -200,6 +201,9 @@ CONTENTS
    git config --global diff.tool vimdiff
    git config --global difftool.prompt false
    git config --global alias.d difftool
+9.1 Fugitive
+   <leader>gf           : open fugitive
+   <leader>gw           : gwrite
 
 ===============================================================================
 
