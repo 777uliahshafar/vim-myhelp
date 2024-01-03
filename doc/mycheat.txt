@@ -97,6 +97,7 @@ CONTENTS
    - ovo/ovop : overlay only
    - ovs/ovsp : overlay onslide
    - ovi/ovip : overlay item
+   - br/bb/bw : color text
    - imgrow2 : row column image
    - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
 
