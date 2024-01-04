@@ -100,6 +100,7 @@ CONTENTS
    - br/bb/bw : color text
    - imgrow2 : row column image
    - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
+   - \only<2|handout:1> : make second slide for handout version
 
 ===============================================================================
 
