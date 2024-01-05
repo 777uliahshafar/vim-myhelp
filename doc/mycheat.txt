@@ -188,8 +188,11 @@ CONTENTS
 ===============================================================================
 
 8. Neorg                                 *cno*
-   - <leader>ww             : Neorg Index
+   - <leader>nn             : Neorg Index
    - <leader>c              : Toggle list item on/off
+   - <leader>ls             : generate summary
+   - <leader>ll             : toc list
+   - <leader>lc             : presenter
    - <BS>                   : previous notes
 
 ===============================================================================
