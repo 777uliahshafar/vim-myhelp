@@ -7,6 +7,7 @@ CONTENTS
 	1.1 Navigation buffers...........................|cb|
     1.2 Folding......................................|cf|
     1.3 Spell........................................|csp|
+    1.4 Thesaurus....................................|cst|
 	2. Luasnip.......................................|cs|
 	2.1 Luasnip beamer...............................|csb|
 	3. Visual Mode...................................|cv|
@@ -67,11 +68,15 @@ CONTENTS
 1.3 Spell
 
    - <leader>o : Set id spell
-   - <F7>      : Set en_us spell
+   - <leader>us: Set en_us spell
    - ]s / [s   : move cursor to misspelled word
    - zg        : add word to spellfile
    - z=        : word suggestion
    - 1z=       : change misspelled word to first suggestion word
+
+1.4 Thesaurus               *cst*
+    - <leader> cs : thesaurus replace normal/visual mode
+    - <C-x><C-u>  : thesaurus replace insert mode
 
 ==============================================================================
                             *cs*
