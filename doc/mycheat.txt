@@ -211,9 +211,15 @@ CONTENTS
    git config --global diff.tool vimdiff
    git config --global difftool.prompt false
    git config --global alias.d difftool
+
 9.1 Fugitive
-   <leader>gf           : open fugitive
-   <leader>gw           : gwrite
+   <leader>gg           : open fugitive
+   <leader>ga           : gwrite
+   <leader>gd           : Gvdiffsplit head
+   <localleader>gd      : Gvdiffsplit head ~1
+   <leader>gp             : git push
+   <leader>gc             : git commit
+
 
 ===============================================================================
 
