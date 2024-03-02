@@ -16,7 +16,6 @@ CONTENTS
     6. Nvim Marks....................................|cm|
     7. R/ TeX Workflow...............................|cr|
     7.1 Tex..........................................|ctm|
-    8. Neorg.........................................|cno|
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
@@ -197,6 +196,11 @@ CONTENTS
     - [[                : cmp files
     - gf                : open or enter link
     - <leader>ch        : toggle todo list
+Vim-Markdown
+    - gx                : Open url link
+    - ]],[[             : go to next/previous header
+    - :Toc              : open toc in quickfix window
+    - :InsertToc        : Insert Toc
 
 ===============================================================================
 
