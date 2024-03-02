@@ -17,6 +17,7 @@ CONTENTS
     7. R/ TeX Workflow...............................|cr|
     7.1 Tex..........................................|ctm|
     8. Neorg.........................................|cno|
+    8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
     11. How to ......................................|ch|
@@ -192,13 +193,10 @@ CONTENTS
 
 ===============================================================================
 
-8. Neorg                                 *cno*
-   - <leader>nn             : Neorg Index
-   - <leader>c              : Toggle list item on/off
-   - <leader>ls             : generate summary
-   - <leader>ll             : toc list
-   - <leader>lc             : presenter
-   - <BS>                   : previous notes
+8. Obsidian                             *co*
+    - [[                : cmp files
+    - gf                : open or enter link
+    - <leader>ch        : toggle todo list
 
 ===============================================================================
 
