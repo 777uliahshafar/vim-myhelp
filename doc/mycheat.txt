@@ -196,6 +196,14 @@ CONTENTS
     - [[                : cmp files
     - gf                : open or enter link
     - <leader>ch        : toggle todo list
+    - ge                : Open anchor link (link the same file)
+    - <leader>lw        : open search
+    - <leader>ff        : open search ft md
+    - <leader>le        : ObsidianLinks
+    - <leader>lc        : ObsidianBacklinks
+    - <leader>ll        : ObsidianLink (visual)
+    - <leader>lv        : ObsidianTags
+
 Vim-Markdown
     - gx                : Open url link
     - ]],[[             : go to next/previous header
