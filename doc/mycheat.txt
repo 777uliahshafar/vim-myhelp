@@ -86,6 +86,7 @@ CONTENTS
    - [S-TAB] : jump previous
 
    - <C-x><C-o> : complete cite
+   - <C-l><C-j> : recursive node such continuous \item
 
 							*csb*
 2.2 Luasnip Beamer
