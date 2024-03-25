@@ -195,7 +195,8 @@ CONTENTS
 
 8. Obsidian                             *co*
     - [[                : cmp files
-    - gf                : open or enter link
+    - fo                : open or enter link
+    - <c-o>             : back
     - <leader>ch        : toggle todo list
     - ge                : Open anchor link (link the same file)
     - <leader>lw        : open search
