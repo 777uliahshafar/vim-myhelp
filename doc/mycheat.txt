@@ -191,6 +191,34 @@ CONTENTS
 - ]r, [r,[R         : move between frame
 - ]*, [*,[]         : move between section
 
+- <C-l><C-j>                 : Recursively create `\item` list in dynamic node snippet.
+- <C-j>                      : Cycle through option snippet
+- <S-Enter>                  : Move to next line
+- <C-S>s                     : Surround or pair tag
+- <S-s>                      : Visual surround pair tag
+- <Tab>                      : Text selected then tab to include in snippet
+- ]] (insert mode)           : Close environment
+
+                                        *cbm*
+7.2 Tex beamer
+- fm  : frame env.
+- itz : itemize env.
+- io  : overlay item
+- ii  : item
+
+- img      : add image
+- txt      : text block gray background
+- txtp     : wrap text using tab to add text block
+- txtup    : right text block
+- txtleft  : left text block
+- txtright : right text block
+- blk      : arrangeable text block
+- blkp     : wrap text using tab to add arrangable text block
+
+- ovip   : arrangable only overlay
+- ovop   : arrangable onslide overlay
+- nop    : arrangable note
+
 ===============================================================================
 
 8. Obsidian                             *co*
