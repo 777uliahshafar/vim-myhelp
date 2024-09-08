@@ -90,23 +90,33 @@ CONTENTS
 
 							*csb*
 2.2 Luasnip Beamer
-   - frame   : create frame
-   - co : color
-   - clr : color text
-   - col2 : two-column environment
-   - subfig : subfigure environment
-   - multifig : multi figure environment
-   - box/boxp : tpblock env
-   - pos/posp : absolute positioning object
-   - note/notep : centre note
-   - img : includegraphich
-   - ovo/ovop : overlay only
-   - ovs/ovsp : overlay onslide
-   - ovi/ovip : overlay item
-   - br/bb/bw : color text
-   - imgrow2 : row column image
-   - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
-   - \only<2|handout:1> : make second slide for handout version
+
+- fm  : frame env.
+- itz : itemize env.
+- ito  : overlay item
+- item  : item
+
+- img      : add image
+- txt      : text block gray background
+- txtp     : wrap text using tab to add text block
+- txtup    : right text block
+- txtleft  : left text block
+- txtright : right text block
+- blk      : arrangeable text block
+- blkp     : wrap text using tab to add arrangable text block
+- co       : color
+- clr      : color text
+- col2     : two-column environment
+- subfig   : subfigure environment
+- multifig : multi figure environment
+
+- onlp   : arrangable only overlay
+- onsp   : arrangable onslide overlay
+- nop    : arrangable note
+
+- \small
+- \footnotesize
+- \scriptsize
 
 ===============================================================================
 
@@ -201,23 +211,11 @@ CONTENTS
 
                                         *cbm*
 7.2 Tex beamer
-- fm  : frame env.
-- itz : itemize env.
-- io  : overlay item
-- ii  : item
 
-- img      : add image
-- txt      : text block gray background
-- txtp     : wrap text using tab to add text block
-- txtup    : right text block
-- txtleft  : left text block
-- txtright : right text block
-- blk      : arrangeable text block
-- blkp     : wrap text using tab to add arrangable text block
+- remove mycolor when use mybg & bgblock.
+- label should be the at first argument.
 
-- ovip   : arrangable only overlay
-- ovop   : arrangable onslide overlay
-- nop    : arrangable note
+
 
 ===============================================================================
 
