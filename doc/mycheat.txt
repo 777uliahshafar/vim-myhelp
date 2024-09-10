@@ -214,7 +214,7 @@ CONTENTS
 
 - remove mycolor when use mybg & bgblock.
 - label should be the at first argument.
-- you can't use txtup,txtleft, txtright multiply
+- you can't use txtup,txtleft, txtright double in a frame.
 
 ===============================================================================
 
