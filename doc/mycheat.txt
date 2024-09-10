@@ -215,6 +215,7 @@ CONTENTS
 - remove mycolor when use mybg & bgblock.
 - label should be the at first argument.
 - you can't use txtup,txtleft, txtright double in a frame.
+- use imgbot/imgup if you use txtup/txtbot to ovoid overlap
 
 ===============================================================================
 
