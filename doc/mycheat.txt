@@ -187,6 +187,7 @@ CONTENTS
    - aa                     : Execute the entire script. This is equivalent to source().
    - xx                     : Toggle comment in an R script.
    - gz                     : maximaze buffer, hide console
+   - ]]                     : close environment
 
    - lc                     : compile tex file
    - le                     : show quickfix list(log error)
