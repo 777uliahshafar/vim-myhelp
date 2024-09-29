@@ -16,6 +16,7 @@ CONTENTS
     6. Nvim Marks....................................|cm|
     7. R/ TeX Workflow...............................|cr|
     7.1 Tex..........................................|ctm|
+    7.2 Tex warning..................................|cwa|
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
@@ -210,13 +211,14 @@ CONTENTS
 - <Tab>                      : Text selected then tab to include in snippet
 - ]] (insert mode)           : Close environment
 
-                                        *cbm*
-7.2 Tex beamer
+                                        *cwa*
+7.2 Tex warnings
 
 - remove mycolor when use mybg & bgblock.
 - label should be the at first argument.
 - you can't use txtup,txtleft, txtright double in a frame.
 - use imgbot/imgup if you use txtup/txtbot to ovoid overlap
+- recheck the pair of each environment, otherwise it won't compile
 
 ===============================================================================
 
@@ -307,6 +309,7 @@ pandoc -o html/hi.html hello.md
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
    :helpt /path/to/this/directory
+   :helpt ../../docs
 <
 
 You may need to restart VIM to see the updated version.
