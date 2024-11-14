@@ -19,8 +19,9 @@ CONTENTS
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
-    11. How to ......................................|ch|
-	12. Rebuilding this file
+    11. Mini-align...................................|cal|
+    12. How to ......................................|ch|
+	13. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *cn*
@@ -244,7 +245,14 @@ Vim-Markdown
 
 ===============================================================================
 
-11. How to ...                               *ch*
+11. Mini align ...                               *cal*
+
+- gaip    : start
+- <s-v>ga : start in visual mode
+
+
+===============================================================================
+12. How to ...                               *ch*
 
     - Use Recording to add and remove line after every few lines:
 * qq     " start recording to register q (you could use any register from a to z)
@@ -275,7 +283,7 @@ pandoc -o html/hi.html hello.md
 
 ===============================================================================
 
-12. Rebuilding this file.
+13. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
