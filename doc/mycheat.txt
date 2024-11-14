@@ -16,6 +16,7 @@ CONTENTS
     6. Nvim Marks....................................|cm|
     7. R/ TeX Workflow...............................|cr|
     7.1 Tex..........................................|ctm|
+    7.2 Tex warning..................................|cwa|
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
@@ -91,23 +92,33 @@ CONTENTS
 
 							*csb*
 2.2 Luasnip Beamer
-   - frame   : create frame
-   - co : color
-   - clr : color text
-   - col2 : two-column environment
-   - subfig : subfigure environment
-   - multifig : multi figure environment
-   - box/boxp : tpblock env
-   - pos/posp : absolute positioning object
-   - note/notep : centre note
-   - img : includegraphich
-   - ovo/ovop : overlay only
-   - ovs/ovsp : overlay onslide
-   - ovi/ovip : overlay item
-   - br/bb/bw : color text
-   - imgrow2 : row column image
-   - [imglrow2, imgrow3, imglrow3, imgcolumn, imgcolumn2, imgcolumn3, imgrowcolumn2, imgrowcolumn3]
-   - \only<2|handout:1> : make second slide for handout version
+
+- fm  : frame env.
+- itz : itemize env.
+- ito  : overlay item
+- item  : item
+
+- img      : add image
+- txt      : text block gray background
+- txtp     : wrap text using tab to add text block
+- txtup    : right text block
+- txtleft  : left text block
+- txtright : right text block
+- blk      : arrangeable text block
+- blkp     : wrap text using tab to add arrangable text block
+- co       : color
+- clr      : color text
+- col2     : two-column environment
+- subfig   : subfigure environment
+- multifig : multi figure environment
+
+- onlp   : arrangable only overlay
+- onsp   : arrangable onslide overlay
+- nop    : arrangable note
+
+- \small
+- \footnotesize
+- \scriptsize
 
 ===============================================================================
 
@@ -178,6 +189,7 @@ CONTENTS
    - aa                     : Execute the entire script. This is equivalent to source().
    - xx                     : Toggle comment in an R script.
    - gz                     : maximaze buffer, hide console
+   - ]]                     : close environment
 
    - lc                     : compile tex file
    - le                     : show quickfix list(log error)
@@ -191,6 +203,23 @@ CONTENTS
 - ]m, [m,[]         : move between environment
 - ]r, [r,[R         : move between frame
 - ]*, [*,[]         : move between section
+
+- <C-l><C-j>                 : Recursively create `\item` list in dynamic node snippet.
+- <C-j>                      : Cycle through option snippet
+- <S-Enter>                  : Move to next line
+- <C-S>s                     : Surround or pair tag
+- <S-s>                      : Visual surround pair tag
+- <Tab>                      : Text selected then tab to include in snippet
+- ]] (insert mode)           : Close environment
+
+                                        *cwa*
+7.2 Tex warnings
+
+- remove mycolor when use mybg & bgblock.
+- label should be the at first argument.
+- you can't use txtup,txtleft, txtright double in a frame.
+- use imgbot/imgup if you use txtup/txtbot to ovoid overlap
+- recheck the pair of each environment, otherwise it won't compile
 
 ===============================================================================
 
@@ -288,6 +317,7 @@ pandoc -o html/hi.html hello.md
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
    :helpt /path/to/this/directory
+   :helpt ../../docs
 <
 
 You may need to restart VIM to see the updated version.
