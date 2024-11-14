@@ -278,7 +278,9 @@ Vim-Markdown
 
 - gaip    : start
 - <s-v>ga : start in visual mode
-
+- prevent the formatter to break the align:
+<!-- prettier-ignore-->
+<!-- prettier-start-->
 
 ===============================================================================
 12. How to ...                               *ch*
