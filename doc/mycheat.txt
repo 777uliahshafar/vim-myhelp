@@ -278,9 +278,11 @@ Vim-Markdown
 
 - ||<space>    : start table mode in insert mode start of the line
 - __<space>    : end table mode in insert mode start of the line
-- prevent the formatter to break the table:
-<!-- prettier-ignore-->
-<!-- prettier-start-->
+- in order to table show properly, blank space precede the table. no extra hypen and vertical line before and after the table.
+| xx         | xx     |
+| ---------- | ------ |
+| xx         | xx     |
+| xx         | xx     |
 
 ===============================================================================
 12. How to ...                               *ch*
