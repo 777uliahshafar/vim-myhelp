@@ -20,7 +20,7 @@ CONTENTS
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
-    11. Mini-align...................................|cal|
+    11. table-mode...................................|cta|
     12. How to ......................................|ch|
 	13. Rebuilding this file
 
@@ -274,11 +274,11 @@ Vim-Markdown
 
 ===============================================================================
 
-11. Mini align ...                               *cal*
+11. Table mode ...                               *cta*
 
-- gaip    : start
-- <s-v>ga : start in visual mode
-- prevent the formatter to break the align:
+- ||<space>    : start table mode in insert mode start of the line
+- __<space>    : end table mode in insert mode start of the line
+- prevent the formatter to break the table:
 <!-- prettier-ignore-->
 <!-- prettier-start-->
 
