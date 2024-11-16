@@ -283,6 +283,9 @@ Vim-Markdown
 | ---------- | ------ |
 | xx         | xx     |
 | xx         | xx     |
+- prevent formatting by adding both
+<!-- prettier-ignore-start -->
+<!-- prettier-ignore-end -->
 
 ===============================================================================
 12. How to ...                               *ch*
