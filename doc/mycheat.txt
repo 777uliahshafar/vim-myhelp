@@ -2,7 +2,8 @@
 *c*
 ===============================================================================
 CONTENTS
-
+	0.1 Rebuilding this file ........................|  |
+    0.2 How to .......................................|ch|
 	1. Normal Mode...................................|cn|
 	1.1 Navigation buffers...........................|cb|
     1.2 Folding......................................|cf|
@@ -21,10 +22,54 @@ CONTENTS
     9. Vimdiff or gitdiff............................|cd|
     10. Telescope ...................................|ct|
     11. table-mode...................................|cta|
-    12. How to ......................................|ch|
-	13. Rebuilding this file
+    12. Windows Terminal.............................|cwt|
 
 ===============================================================================
+===============================================================================
+0.1 How to ...                               *ch*
+
+    - Use Recording to add and remove line after every few lines:
+* qq     " start recording to register q (you could use any register from a to z)
+* o      " insert an empty line below cursor
+* <Esc>  " switch to normal mode
+* jjj    " move the cursor 3 lines downward
+* q      " stop recording
+
+    - Add character to beginning of line:
+* <C-b>  " Enter visual block
+* j or k " Select lines you want to add character
+* <S-i>  " Type character to be inserted
+* <Esc>  " Wait a second to character be inserted
+
+
+    - How do I rename all files to lowercase:
+* cd to directory, then paste this command
+
+for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower:]"`"; done
+
+    - Convert md to html in spesific folder within wordir
+
+pandoc -t html hello.md > html/hello.html
+or
+pandoc -o html/hi.html hello.md
+    - Convert md to pdf
+* <leader> lc  "compile to pdf
+
+===============================================================================
+
+0.2 Rebuilding this file.
+
+This file is loaded as a plugin. If you ever need to rebuild the tags file, run
+this command: >
+   :helpt /path/to/this/directory
+   :helpt ~\vim-myhelp\doc
+   :helpt ../../docs
+<
+
+You may need to restart VIM to see the updated version.
+
+===============================================================================
+
 1. Normal Mode                                         *cn*
 
    - :w     : Save modified buffers
@@ -287,44 +332,8 @@ Vim-Markdown
 <!-- prettier-ignore-start -->
 <!-- prettier-ignore-end -->
 
-===============================================================================
-12. How to ...                               *ch*
+12 Windows terminal                             *cwt*
 
-    - Use Recording to add and remove line after every few lines:
-* qq     " start recording to register q (you could use any register from a to z)
-* o      " insert an empty line below cursor
-* <Esc>  " switch to normal mode
-* jjj    " move the cursor 3 lines downward
-* q      " stop recording
-
-    - Add character to beginning of line:
-* <C-b>  " Enter visual block
-* j or k " Select lines you want to add character
-* <S-i>  " Type character to be inserted
-* <Esc>  " Wait a second to character be inserted
-
-
-    - How do I rename all files to lowercase:
-* cd to directory, then paste this command
-
-for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower:]"`"; done
-
-    - Convert md to html in spesific folder within wordir
-
-pandoc -t html hello.md > html/hello.html
-or
-pandoc -o html/hi.html hello.md
-    - Convert md to pdf
-* <leader> lc  "compile to pdf
-
-===============================================================================
-
-13. Rebuilding this file.
-
-This file is loaded as a plugin. If you ever need to rebuild the tags file, run
-this command: >
-   :helpt /path/to/this/directory
-   :helpt ../../docs
-<
-
-You may need to restart VIM to see the updated version.
+Zoom in             : <C-=>
+Zoom out            : <C-->
+Zoom Reset          : <C-0>
