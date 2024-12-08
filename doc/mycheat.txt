@@ -316,6 +316,7 @@ Vim-Markdown
    - <C-p>          : Open FZF (not change dir)
    - <leader>fb     : Open Buffers
    - <leader>fw     : Open Rg search
+   - <M/alt-d>      : delete buffer in window
 
 ===============================================================================
 
@@ -337,3 +338,4 @@ Vim-Markdown
 Zoom in             : <C-=>
 Zoom out            : <C-->
 Zoom Reset          : <C-0>
+Full Screen         : <C-CR>
