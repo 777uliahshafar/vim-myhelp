@@ -23,6 +23,7 @@ CONTENTS
     10. Telescope ...................................|ct|
     11. table-mode...................................|cta|
     12. Windows Terminal.............................|cwt|
+    13. Sioyek.......................................|csi|
 
 ===============================================================================
 ===============================================================================
@@ -339,3 +340,20 @@ Zoom in             : <C-=>
 Zoom out            : <C-->
 Zoom Reset          : <C-0>
 Full Screen         : <C-CR>
+
+12 Sioyek                                       *csi*
+Save embded annotation      : <C-d>
+
+13. Zotero
+m           : rename and move zotfile
+i           : focus info tab
+n           : add note
+c           : show/hide collection pane
+i           : show/hide item pane
+<C-h>       : Attach link to file
+o           : open attachment file
+
+
+
+
+
