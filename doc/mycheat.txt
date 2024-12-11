@@ -24,6 +24,7 @@ CONTENTS
     11. table-mode...................................|cta|
     12. Windows Terminal.............................|cwt|
     13. Sioyek.......................................|csi|
+    14. Zotero.......................................|czo|
 
 ===============================================================================
 ===============================================================================
@@ -344,14 +345,15 @@ Full Screen         : <C-CR>
 12 Sioyek                                       *csi*
 Save embded annotation      : <C-d>
 
-13. Zotero
-m           : rename and move zotfile
-i           : focus info tab
-n           : add note
-c           : show/hide collection pane
-i           : show/hide item pane
+
+13. Zotero                                       *czo*
+<C-m>           : rename and move zotfile
+<C-n>           : add note
+1           : show/hide collection pane
+2           : show/hide item pane
 <C-h>       : Attach link to file
-o           : open attachment file
+<C-o>           : open attachment file
+], [            : next/previous tab item pane
 
 
 
