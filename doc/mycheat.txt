@@ -25,6 +25,7 @@ CONTENTS
     12. Windows Terminal.............................|cwt|
     13. Sioyek.......................................|csi|
     14. Zotero.......................................|czo|
+    15. Pantran......................................|cpa|
 
 ===============================================================================
 ===============================================================================
@@ -335,18 +336,18 @@ Vim-Markdown
 <!-- prettier-ignore-start -->
 <!-- prettier-ignore-end -->
 
-12 Windows terminal                             *cwt*
+12. Windows terminal                             *cwt*
 
 Zoom in             : <C-=>
 Zoom out            : <C-->
 Zoom Reset          : <C-0>
 Full Screen         : <C-CR>
 
-12 Sioyek                                       *csi*
+13. Sioyek                                       *csi*
 Save embded annotation      : <C-d>
 
 
-13. Zotero                                       *czo*
+14. Zotero                                       *czo*
 <C-m>           : rename and move zotfile
 <C-n>           : add note
 1           : show/hide collection pane
@@ -354,8 +355,14 @@ Save embded annotation      : <C-d>
 <C-h>       : Attach link to file
 <C-o>           : open attachment file
 ], [            : next/previous tab item pane
+<C-i>       : Attach new file (zotfile)
 
 
-
-
+15. Pantran                                     *cpa*
+gy              : Yank translation and quit.
+gY              : Yank input and quit.
+gr              : Replace text with translation and quit.
+gR              : Replace text with input and quit.
+ge              : Select Engine
+gS              : Switch source with target language.
 
