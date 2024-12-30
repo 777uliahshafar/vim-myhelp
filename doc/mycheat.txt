@@ -26,6 +26,7 @@ CONTENTS
     13. Sioyek.......................................|csi|
     14. Zotero.......................................|czo|
     15. Pantran......................................|cpa|
+    16. Harpoon......................................|chp|
 
 ===============================================================================
 ===============================================================================
@@ -366,3 +367,10 @@ gR              : Replace text with input and quit.
 ge              : Select Engine
 gS              : Switch source with target language.
 
+
+16. Harpoon                                     *chp*
+ha              : Add marked file harpoon
+hm              : Show list marked file
+hd              : delete buffer from the list marked
+<C-n>           : go to next marked buffer file
+<C-p>           : go to previous marked buffer file
