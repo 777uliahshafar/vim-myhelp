@@ -274,16 +274,15 @@ You may need to restart VIM to see the updated version.
 
 8. Obsidian                             *co*
     - [[                : cmp files
-    - fo                : open or enter link
     - <c-o>             : back
     - <leader>ch        : toggle todo list
-    - ge                : Open anchor link (link the same file)
     - <leader>lw        : open search
     - <leader>ff        : open search ft md
     - <leader>le        : ObsidianLinks
     - <leader>lc        : ObsidianBacklinks
     - <leader>ll        : ObsidianLink (visual)
     - <leader>lv        : ObsidianTags
+    - Create anchor link [[filename#heading]]
 
 Vim-Markdown
     - gx                : Open url link
