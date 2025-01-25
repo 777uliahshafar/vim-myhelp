@@ -358,18 +358,19 @@ Save embded annotation      : <C-d>
 <C-i>       : Attach new file (zotfile)
 
 
-15. Pantran                                     *cpa*
+15. Pantran Translate                           *cpa*
 gy              : Yank translation and quit.
 gY              : Yank input and quit.
 gr              : Replace text with translation and quit.
 gR              : Replace text with input and quit.
 ge              : Select Engine
 gS              : Switch source with target language.
-
+gt              : select_target
+gs              : select_source
 
 16. Harpoon                                     *chp*
-ha              : Add marked file harpoon
-hm              : Show list marked file
-hd              : delete buffer from the list marked
+<leader>ha      : Add marked file harpoon
+<leader>hm      : Show list marked file
+<leader>hd      : delete buffer from the list marked
 <C-n>           : go to next marked buffer file
 <C-p>           : go to previous marked buffer file
