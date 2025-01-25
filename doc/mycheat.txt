@@ -27,6 +27,7 @@ CONTENTS
     14. Zotero.......................................|czo|
     15. Pantran......................................|cpa|
     16. Harpoon......................................|chp|
+    17. Chatgpt......................................|ccg|
 
 ===============================================================================
 ===============================================================================
@@ -371,6 +372,46 @@ gs              : select_source
 16. Harpoon                                     *chp*
 <leader>ha      : Add marked file harpoon
 <leader>hm      : Show list marked file
-<leader>hd      : delete buffer from the list marked
+<leader>hd      : delete buffer from the list marked (works outside the list window)
 <C-n>           : go to next marked buffer file
 <C-p>           : go to previous marked buffer file
+
+
+17. Chatgpt                                     *ccg*
+
+        <Esc> : close_n,
+        <C-y> : yank_last,
+        <C-u> : scroll_up,
+        <C-d> : scroll_down,
+        <C-n> : new_session,
+        <c-l> : cycle_windows,
+        <C-f> : cycle_modes,
+        <C-j> : next_message,
+        <C-k> : prev_message,
+        <Space> : select_session,
+        r : rename_session,
+        d : delete_session,
+        <C-o> : toggle_settings,
+        <C-p> : toggle_sessions,
+        <C-h> : toggle_help,
+        <C-r> : toggle_message_role,
+        <C-s> : toggle_system_role_open,
+        <C-x> : stop_generating,
+        close_n = <Esc>",
+        yank_last = "<C-y>",
+        scroll_up = "<C-u>",
+        scroll_down = "<C-d>",
+        new_session = "<C-n>",
+        cycle_windows = "<c-l>",
+        cycle_modes = "<C-f>",
+        next_message = "<C-j>",
+        prev_message = "<C-k>",
+        select_session = "<Space>",
+        rename_session = "r",
+        delete_session = "d",
+        toggle_settings = "<C-o>",
+        toggle_sessions = "<C-p>",
+        toggle_help = "<C-h>",
+        toggle_message_role = "<C-r>",
+        toggle_system_role_open = "<C-s>",
+        stop_generating = "<C-x>",
