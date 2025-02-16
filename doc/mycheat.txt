@@ -28,6 +28,7 @@ CONTENTS
     15. Pantran......................................|cpa|
     16. Harpoon......................................|chp|
     17. Chatgpt......................................|ccg|
+    18. AHK..........................................|cah|
 
 ===============================================================================
 ===============================================================================
@@ -415,3 +416,21 @@ gs              : select_source
         toggle_message_role = "<C-r>",
         toggle_system_role_open = "<C-s>",
         stop_generating = "<C-x>",
+
+18. AHK                                     *cah*
+Double enter : cycle through the similar window
+Double tab : cycle through recent window
+Alt ; : Activate Recent window
+
+Alt h  : Activate zotero
+Alt j  : Activate Window Terminal
+Long press Alt J : Divide terminal and sioyek
+Alt k  : Activate Sioyek
+Long press Alt k : Divide multiple sioyek window
+Alt l  : Activate Chrome
+Alt n  : Activate Marked Window
+Long press Alt n : Mark Active Window
+
+Windows key Enter : Open all window
+
+
