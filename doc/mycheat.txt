@@ -215,6 +215,7 @@ You may need to restart VIM to see the updated version.
     - mx       : Toggle mark 'x' and display it in the leftmost column
     - dmx      : Remove mark 'x' where x is a-zA-Z
     - dm-      : Delett mark in the current line
+    - dm<space>: Delett mark in the current line
     - m,       : Place the next available mark
     - m.       : if no mark, place mark. otherwise, remove
     - ]`       : Jump to next mark
