@@ -107,6 +107,9 @@ You may need to restart VIM to see the updated version.
    - <leader>th: Go from horizontal to vertical
    - <leader>tk: Go from vertical to horizontal
    - <C-w> r   : Swap the two buffers
+   - <C-w> u   : Increse size split buffer
+   - <C-w> d   : Decrease size split buffer
+
 
 							*cf*
 1.2 Folding
@@ -151,12 +154,12 @@ You may need to restart VIM to see the updated version.
 
 - img      : add image
 - txt      : text block gray background
-- txtp     : wrap text using tab to add text block
+- txtp     : text block gray background using Tab
 - txtup    : right text block
 - txtleft  : left text block
 - txtright : right text block
 - blk      : arrangeable text block
-- blkp     : wrap text using tab to add arrangable text block
+- blkp     : arrangable text block using Tab
 - co       : color
 - clr      : color text
 - col2     : two-column environment
