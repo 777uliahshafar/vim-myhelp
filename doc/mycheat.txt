@@ -219,13 +219,15 @@ You may need to restart VIM to see the updated version.
     - dmx      : Remove mark 'x' where x is a-zA-Z
     - dm-      : Delett mark in the current line
     - dm<space>: Delett mark in the current line
-    - m,       : Place the next available mark
+    - m;       : Place the next available mark
     - m.       : if no mark, place mark. otherwise, remove
     - ]`       : Jump to next mark
     - [`       : Jump to prev mark
     - m-       : Delete all marks from the current line
     - m<Space> : Delete all marks from the current buffer
     - m/       : Open location list
+    - m7-0     : set bookmark
+    - <lleader>d : show bookmark
 
 ===============================================================================
 
