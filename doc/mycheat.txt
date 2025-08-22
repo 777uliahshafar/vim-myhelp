@@ -147,7 +147,7 @@ You may need to restart VIM to see the updated version.
 							*csb*
 2.2 Luasnip Beamer
 
-- fm  : frame env.
+- fm  : frame env. (choice node)
 - itz : itemize env.
 - ito  : overlay item
 - item  : item
@@ -155,11 +155,11 @@ You may need to restart VIM to see the updated version.
 - img      : add image
 - txt      : text block gray background
 - txtp     : text block gray background using Tab
-- txtup    : right text block
-- txtleft  : left text block
-- txtright : right text block
-- blk      : arrangeable text block
-- blkp     : arrangable text block using Tab
+- txtup    : right text/img block
+- txtleft  : left text/img block
+- txtright : right text/img block
+- blk      : arrangeable text/img block
+- blkp     : arrangable text/img block using Tab
 - co       : color
 - clr      : color text
 - col2     : two-column environment
@@ -168,7 +168,7 @@ You may need to restart VIM to see the updated version.
 
 - onlp   : arrangable only overlay
 - onsp   : arrangable onslide overlay
-- nop    : arrangable note
+- nop    : arrangable note (c. node)
 
 - \small
 - \footnotesize
