@@ -10,17 +10,17 @@ CONTENTS
     1.3 Spell........................................|csp|
     1.4 Thesaurus....................................|cst|
 	2. Luasnip.......................................|cs|
-	2.1 Luasnip beamer...............................|csb|
 	3. Visual Mode...................................|cv|
 	4. Insert Mode...................................|ci|
     5. Vim Surround..................................|csu|
     6. Nvim Marks....................................|cm|
-    7. R/ TeX Workflow...............................|cr|
+    7. R/ TeX Workflow...............................|ct|
     7.1 Tex..........................................|ctm|
-    7.2 Tex warning..................................|cwa|
+    7.2 Tex warning..................................|ctw|
+	7.3 Tex beamer...................................|ctb|
     8. Obsidian......................................|co|
     9. Vimdiff or gitdiff............................|cd|
-    10. Telescope ...................................|ct|
+    10. Telescope ...................................|cts|
     11. table-mode...................................|cta|
     12. Windows Terminal.............................|cwt|
     13. Sioyek.......................................|csi|
@@ -144,37 +144,6 @@ You may need to restart VIM to see the updated version.
    - <C-x><C-o> : complete cite
    - <C-l><C-j> : recursive node such continuous \item
 
-							*csb*
-2.2 Luasnip Beamer
-
-- enumerate inherently doesn't work with beamer
-- fm  : frame env. (choice node)
-- onlp   : only overlay (selected text)
-- onsp   : onslide overlay (selected text)
-- nop    : note (selected text)
-The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
-- itz : itemize env.
-- ito  : overlay item
-- item  : item
-
-- img      : add image
-- txt      : text block gray background
-- txtp     : text block gray background (selected text)
-- txtup    : right text/img block
-- txtleft  : left text/img block
-- txtright : right text/img block
-- blk      : arrangeable text/img block
-- blkp     : arrangable text/img block (selected text)
-- co       : color
-- clr      : color text
-- col2     : two-column environment
-- subfig   : subfigure environment
-- multifig : multi figure environment
-
-
-- \small
-- \footnotesize
-- \scriptsize
 
 ===============================================================================
 
@@ -233,7 +202,7 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 
 ===============================================================================
 
-7. R / Tex Workflow                           *cr*
+7. R / Tex Workflow                           *ct*
 
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
@@ -272,7 +241,7 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 - <Tab>                      : Text selected then tab to include in snippet
 - ]] (insert mode)           : Close environment
 
-                                        *cwa*
+                                        *ctw*
 7.2 Tex warnings
 
 - remove mycolor when use mybg & bgblock.
@@ -280,6 +249,43 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 - you can't use txtup,txtleft, txtright double in a frame.
 - use imgbot/imgup if you use txtup/txtbot to ovoid overlap
 - recheck the pair of each environment, otherwise it won't compile
+
+
+							*ctb*
+7.3 Tex Luasnip Beamer
+- ]]        : close env.
+- enumerate inherently doesn't work with beamer
+- fm        : frame env. (choice node)
+- onlp      : only overlay (selected text)
+- onsp      : onslide overlay (selected text)
+- nop       : note (selected text)
+The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
+- itz       : itemize env.
+- ito       : overlay item
+- item      : item
+
+- img      : add image (choice node)
+- all txt are choice node
+- txt      : text block gray background
+- txtp     : text block gray background (selected text)
+- txtu    : up text/img block
+- txtb    : bottom text/img block
+- txtl     : left text/img block
+- txtlp     : left text/img block (selected text)
+- txtr     : right text/img block
+- txtrp     : right text/img block (selected text)
+- blk      : arrangeable text/img block
+- blkp     : arrangable text/img block (selected text)
+- co       : color
+- clr      : color text
+- col2     : two-column environment
+- subfig   : subfigure environment
+- multifig : multi figure environment
+
+
+- \small
+- \footnotesize
+- \scriptsize
 
 ===============================================================================
 
