@@ -149,9 +149,9 @@ You may need to restart VIM to see the updated version.
 
 - enumerate inherently doesn't work with beamer
 - fm  : frame env. (choice node)
-- onlp   : arrangable only overlay
-- onsp   : arrangable onslide overlay
-- nop    : arrangable note (c. node)
+- onlp   : only overlay (selected text)
+- onsp   : onslide overlay (selected text)
+- nop    : note (selected text)
 The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
 - itz : itemize env.
 - ito  : overlay item
@@ -159,12 +159,12 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 
 - img      : add image
 - txt      : text block gray background
-- txtp     : text block gray background using Tab
+- txtp     : text block gray background (selected text)
 - txtup    : right text/img block
 - txtleft  : left text/img block
 - txtright : right text/img block
 - blk      : arrangeable text/img block
-- blkp     : arrangable text/img block using Tab
+- blkp     : arrangable text/img block (selected text)
 - co       : color
 - clr      : color text
 - col2     : two-column environment
