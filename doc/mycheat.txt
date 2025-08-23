@@ -170,6 +170,7 @@ You may need to restart VIM to see the updated version.
 - onlp   : arrangable only overlay
 - onsp   : arrangable onslide overlay
 - nop    : arrangable note (c. node)
+The onslide has a fixed position, only has flexible.
 
 - \small
 - \footnotesize
