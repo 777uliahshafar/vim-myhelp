@@ -149,6 +149,10 @@ You may need to restart VIM to see the updated version.
 
 - enumerate inherently doesn't work with beamer
 - fm  : frame env. (choice node)
+- onlp   : arrangable only overlay
+- onsp   : arrangable onslide overlay
+- nop    : arrangable note (c. node)
+The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
 - itz : itemize env.
 - ito  : overlay item
 - item  : item
@@ -167,10 +171,6 @@ You may need to restart VIM to see the updated version.
 - subfig   : subfigure environment
 - multifig : multi figure environment
 
-- onlp   : arrangable only overlay
-- onsp   : arrangable onslide overlay
-- nop    : arrangable note (c. node)
-The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
 
 - \small
 - \footnotesize
