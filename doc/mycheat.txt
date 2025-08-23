@@ -147,6 +147,7 @@ You may need to restart VIM to see the updated version.
 							*csb*
 2.2 Luasnip Beamer
 
+- enumerate inherently doesn't work with beamer
 - fm  : frame env. (choice node)
 - itz : itemize env.
 - ito  : overlay item
