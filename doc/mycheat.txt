@@ -330,7 +330,7 @@ Vim-Markdown
 
 ===============================================================================
 
-10. Telescope 						*ct*
+10. Telescope 						*ctel*
 
    - <leader>ff     : Open Files
    - <C-p>          : Open FZF (not change dir)
