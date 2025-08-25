@@ -204,6 +204,7 @@ You may need to restart VIM to see the updated version.
 
 7. R / Tex Workflow                           *ct*
 
+   - yank regiter           : "xyy
    - <lleader>rf(default \) : Open terminal R console
    - <C-\> <C-n> / jk       : Scroll on R console, i for exit
    - <C-w> k                : Switch out from R console
