@@ -356,6 +356,9 @@ Vim-Markdown
 
 12. Windows terminal                             *cwt*
 
+Split ver           : <C-S-=>
+Split hor           : <C-S-->
+Resize              : <A-S-Arrow>
 Zoom in             : <C-=>
 Zoom out            : <C-->
 Zoom Reset          : <C-0>
