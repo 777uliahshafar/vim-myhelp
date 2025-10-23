@@ -267,6 +267,8 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 - item      : item
 
 - img      : add image (choice node)
+- imglcorner : add corner image
+- imgrcorner : add corner image
 - all txt are choice node
 - txt      : text block gray background
 - txtp     : text block gray background (selected text)
