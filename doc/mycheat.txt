@@ -259,8 +259,8 @@ You may need to restart VIM to see the updated version.
 - fm        : frame env. (choice node)
 - onlp      : only overlay (selected text)
 - onsp      : onslide overlay (selected text)
-- nit       : note item (selected text)
-- noc       : note center (selected text)
+- nip       : note item (selected text)
+- nop       : note center (selected text)
 The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
 - itz       : itemize env.
 - ito       : overlay item
