@@ -262,9 +262,10 @@ You may need to restart VIM to see the updated version.
 - nip       : note item (selected text)
 - nop       : note center (selected text)
 The onslide has a fixed position, only has flexible. While item<1-> use fixed position like onslide.
-- itz       : itemize env.
 - ito       : overlay item
 - item      : item
+- itmp       : itemize env.
+- itm      : continuous item (add new item <c-l> then <c-j>
 
 - img      : add image (choice node)
 - imglcorner : add corner image
