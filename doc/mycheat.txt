@@ -227,6 +227,8 @@ You may need to restart VIM to see the updated version.
    - ln                     : Go (next R chunk)
    - lN                     : Go (previous R chunk)
    - F6                     : Wrap text in env.
+   - \item                  : add paragraph. after item
+   \item[]
 
                                         *ctm*
 7.1 Tex motion
