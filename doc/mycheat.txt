@@ -25,10 +25,11 @@ CONTENTS
     12. Windows Terminal.............................|cwt|
     13. Sioyek.......................................|csi|
     14. Zotero.......................................|czo|
-    15. Pantran......................................|cpa|
-    16. Harpoon......................................|chp|
-    17. Chatgpt......................................|ccg|
-    18. AHK..........................................|cah|
+    15. Kiddos Gemini................................|ckg|
+    16. Pantran......................................|cpa|
+    17. Harpoon......................................|chp|
+    18. Chatgpt......................................|ccg|
+    19. AHK..........................................|cah|
 
 ===============================================================================
 ===============================================================================
@@ -385,8 +386,12 @@ Save embded annotation      : <C-d>
 ], [            : next/previous tab item pane
 <C-i>       : Attach new file (zotfile)
 
+15. Kidos Gemini                                *ckg*
 
-15. Pantran Translate                           *cpa*
+- Parafrase dan instruksi lainnya hanya bekerja pada visual line.
+- Gemini task dapat bekerja dengan memberi navigasi ubah kalimat paragraf n bagian section.
+
+16. Pantran Translate                           *cpa*
 gy              : Yank translation and quit.
 gY              : Yank input and quit.
 gr              : Replace text with translation and quit.
@@ -396,7 +401,7 @@ gS              : Switch source with target language.
 gt              : select_target
 gs              : select_source
 
-16. Harpoon                                     *chp*
+17. Harpoon                                     *chp*
 <leader>ha      : Add marked file harpoon
 <leader>hm      : Show list marked file
 <leader>hd      : delete buffer from the list marked (works outside the list window)
@@ -404,7 +409,7 @@ gs              : select_source
 <C-p>           : go to previous marked buffer file
 
 
-17. Chatgpt                                     *ccg*
+18. Chatgpt                                     *ccg*
 
         <Esc> : close_n,
         <C-y> : yank_last,
@@ -443,7 +448,7 @@ gs              : select_source
         toggle_system_role_open = "<C-s>",
         stop_generating = "<C-x>",
 
-18. AHK                                     *cah*
+19. AHK                                     *cah*
 Double enter : cycle through the similar window
 Double tab : cycle through recent window
 Alt ; : Activate Recent window
