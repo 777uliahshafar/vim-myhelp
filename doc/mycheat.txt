@@ -390,6 +390,7 @@ Save embded annotation      : <C-d>
 
 - Parafrase dan instruksi lainnya hanya bekerja pada visual line.
 - Gemini task dapat bekerja dengan memberi navigasi ubah kalimat paragraf n bagian section.
+- GeminiTask mengingat sejarah perintah
 
 16. Pantran Translate                           *cpa*
 gy              : Yank translation and quit.
