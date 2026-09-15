@@ -29,7 +29,8 @@ CONTENTS
     16. Pantran......................................|cpa|
     17. Harpoon......................................|chp|
     18. Chatgpt......................................|ccg|
-    19. AHK..........................................|cah|
+    19. Claude.......................................|cla|
+    20. AHK..........................................|cah|
 
 ===============================================================================
 ===============================================================================
@@ -448,6 +449,29 @@ gs              : select_source
         toggle_message_role = "<C-r>",
         toggle_system_role_open = "<C-s>",
         stop_generating = "<C-x>",
+
+19. Claude                                    *cla*
+
+* ac : Toggle Claude Code terminal
+* af : Focus / toggle Claude terminal
+* ar : Resume Claude session
+* aC : Continue Claude session
+* am : Select Claude model
+* ab : Add current buffer to Claude context
+* aa : Accept diff changes proposed by Claude
+* ad : Deny / reject diff changes proposed by Claude
+* as : Send visual selection to Claude
+* af : Send selection & prompt "Perbaiki kode ini"
+* as : Add selected file to Claude context
+* :ClaudeCode              : Toggle Claude Code terminal window
+* :ClaudeCodeFocus         : Smart focus/toggle terminal
+* :ClaudeCodeSelectModel   : Select model and open terminal
+* :ClaudeCodeSend          : Send visual selection to Claude
+* :ClaudeCodeSendText      : Type text into terminal and submit
+* :ClaudeCodeAdd           : Add specific file/range to context
+* :ClaudeCodeDiffAccept    : Accept diff changes
+* :ClaudeCodeDiffDeny      : Reject diff changes
+* :ClaudeCodeCloseAllDiffs : Close pending diffs
 
 19. AHK                                     *cah*
 Double enter : cycle through the similar window
