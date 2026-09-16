@@ -452,6 +452,8 @@ gs              : select_source
 
 19. Claude                                    *cla*
 
+! scroll response pane works only on terminal mode using mouse.
+
 * ac : Toggle Claude Code terminal
 * af : Focus / toggle Claude terminal
 * ar : Resume Claude session
