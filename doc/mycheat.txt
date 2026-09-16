@@ -452,8 +452,10 @@ gs              : select_source
 
 19. Claude                                    *cla*
 
-! scroll response pane works only on terminal mode using mouse.
-
+===scroll respons pane in terminal mode===
+(opt. mouse="" / not "a") :pgup/pgdown : scrolling
+(opt. mouse= "a"): using mouse to scroll.
+===keybinding===
 * ac : Toggle Claude Code terminal
 * af : Focus / toggle Claude terminal
 * ar : Resume Claude session
