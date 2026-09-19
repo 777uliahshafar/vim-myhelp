@@ -456,6 +456,7 @@ gs              : select_source
 (opt. mouse="" / not "a") :pgup/pgdown : scrolling
 (opt. mouse= "a"): using mouse to scroll.
 ===keybinding===
+<c-j> : enter new line in terminal mode
 * ac : Toggle Claude Code terminal
 * af : Focus / toggle Claude terminal
 * ar : Resume Claude session
