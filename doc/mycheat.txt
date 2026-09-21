@@ -313,6 +313,8 @@ The onslide has a fixed position, only has flexible. While item<1-> use fixed po
 
 Vim-Markdown
     - gx                : Open url link
+    - gf in path        : Open file link absolute
+    > [text](file:///C:/path/path.)
     - ]],[[             : go to next/previous header
     - :Toc              : open toc in quickfix window
     - :InsertToc        : Insert Toc
