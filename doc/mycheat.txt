@@ -391,9 +391,11 @@ Save embded annotation      : <C-d>
 
 15. Kidos Gemini                                *ckg*
 
-- Parafrase dan instruksi lainnya hanya bekerja pada visual line.
-- Gemini task dapat bekerja dengan memberi navigasi ubah kalimat paragraf n bagian section.
-- GeminiTask mengingat sejarah perintah
+:GeminiToggleCompletion     : Toggle AutoCompletion
+<Leader><Leader><Leader>g   : Instruction Menu (normal Mode)
+Some Instruction are sourced from line, some are source from visual line. In Visual Line, Select text then type : (semicolon) then Gemini.
+
+
 
 16. Pantran Translate                           *cpa*
 gy              : Yank translation and quit.
