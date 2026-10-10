@@ -392,6 +392,9 @@ Save embded annotation      : <C-d>
 15. Kidos Gemini                                *ckg*
 
 :GeminiToggleCompletion     : Toggle AutoCompletion
+:GeminiTask prompt
+<C-r>+                      : Paste dari clipboard
+<C-r>"                      : Paste dari nvim register
 <Leader><Leader><Leader>g   : Instruction Menu (normal Mode)
 Some Instruction are sourced from line, some are source from visual line. In Visual Line, Select text then type : (semicolon) then Gemini.
 
